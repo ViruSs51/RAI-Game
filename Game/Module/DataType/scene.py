@@ -11,5 +11,5 @@ class Scenes:
     '''
     main_menu: MainMenu
 
-    def __getitem__(self, name: str):
+    def __getitem__(self, name: str) -> Any:
         return getattr(self, name)
