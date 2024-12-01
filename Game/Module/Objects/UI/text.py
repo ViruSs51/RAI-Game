@@ -24,18 +24,18 @@ class Text:
         self.text_render = self.text_font.render(self.text, True, self.text_colors[self.fill_color], self.background_color[self.fill_background_color] if self.background_color else None)
         self.text_rect = self.text_render.get_rect()
 
-    def show(self):
+    async def show(self):
         self.window.blit(self.text_render, self.position)
 
         pg.display.update()
     
-    def updateFill(self, fill_index: int):
+    async def updateFill(self, fill_index: int):
         self.fill_color = fill_index
         self.fill_background_color = fill_index
 
         self.init()
 
-    def updatePosition(self, position: list[int]):
+    async def updatePosition(self, position: list[int]):
         self.position = position
 
         self.init()
