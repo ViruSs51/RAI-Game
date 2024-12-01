@@ -43,6 +43,8 @@ class Game:
     
     async def __loop(self):
         while self.__run:
+            self.__window.fill('black')
+            
             # Verifica daca se apasa close la window, daca da, window se inchide
             for e in pg.event.get(): 
                 self.__run = False if e.type == pg.QUIT else True
