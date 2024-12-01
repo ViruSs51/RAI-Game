@@ -1,5 +1,5 @@
 from ..objects import Object
-from ..UI.ui import Text
+from .text import Text
 
 import pygame as pg
 
@@ -26,7 +26,7 @@ class Button(Object):
         else:
             self.button = pg.draw.rect(self.window, self.colors[self.fill_index], self.pos+self.size, border_radius=self.border_radius)
 
-        self.text.show()
+        await self.text.show()
 
 
         is_hover = await self.hover()
@@ -34,7 +34,7 @@ class Button(Object):
 
         if not is_hover and not is_press:
             self.fill_index = 0
-            self.text.updateFill(self.fill_index)
+            await self.text.updateFill(self.fill_index)
 
         pg.display.update()
 
@@ -50,7 +50,7 @@ class Button(Object):
             self.pressed = True
 
             self.fill_index = 2
-            self.text.updateFill(self.fill_index)
+            await self.text.updateFill(self.fill_index)
 
             return True
 
@@ -64,7 +64,7 @@ class Button(Object):
 
         if self.button.collidepoint(mouse_x, mouse_y):
             self.fill_index = 1
-            self.text.updateFill(self.fill_index)
+            await self.text.updateFill(self.fill_index)
 
             return True
 
