@@ -57,7 +57,7 @@ class Game:
         '''
         Aceasta functie e pentru a indica ordinea de indiplinire a functiilor globale in joc
         '''
-        await self.__scenes['main_menu'].loader()
+        await self.__scenes[self.__scene].loader()
 
 
 if __name__ == '__main__':
