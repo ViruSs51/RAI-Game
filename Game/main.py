@@ -6,7 +6,7 @@ from  Module import Scene
 
 class Game:
     __run = False
-    __scene = 'main_menu'
+    __scene = 'spaceship_control_room'
 
     def __init__(self, window_size: str|list[int]|tuple[int], title='RAI Game'):
         self.w_size = window_size
@@ -58,6 +58,7 @@ class Game:
         Aceasta functie e pentru a indica ordinea de indiplinire a functiilor globale in joc
         '''
         await self.__scenes[self.__scene].loader()
+        
 
 
 if __name__ == '__main__':
