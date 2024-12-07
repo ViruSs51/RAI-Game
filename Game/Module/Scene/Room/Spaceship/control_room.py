@@ -4,4 +4,4 @@ from ...Room.room import Room
 
 class ControlRoom(Room):
     async def loader(self):
-        self._window.fill('red')
+        await super().loader()

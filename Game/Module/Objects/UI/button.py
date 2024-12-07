@@ -8,7 +8,7 @@ class Button(Object):
     pressed = False
     pressed_time = 0
 
-    def __init__(self, window: pg.Surface, size: list[int]=[50, 50], position: list[int]=[0, 0], colors: list[list[int]|str]=['white', 'gray', 'black'], text_position: list[int]=None, text: str=None, font: str=None, font_size: int=36, text_colors: list[list[int]|str]=['black', 'black', 'white'], text_background_colors: list[list[int]|str]=None, images_url: list[list[int]|str]=None, border_radius: int=-1):
+    def __init__(self, window: pg.Surface, size: list[int]=[50, 50], position: list[int]=[0, 0], colors: list[list[int]|str]=['white', 'gray', 'black'], text_position: list[int]=None, text: str=None, font: str=None, font_size: int=36, text_colors: list[list[int]|str]=['black', 'black', 'white'], text_background_colors: list[list[int]|str]=None, images_url: list[str]=None, border_radius: int=-1):
         super().__init__(window, size, position, colors, images_url, border_radius)
 
         self.text = Text(self.window, text_position, text, font, font_size, text_colors, text_background_colors)
@@ -19,6 +19,7 @@ class Button(Object):
 
 
     async def draw(self):
+        self.images = await self.setImages()
         await super().draw()
 
         if self.images:
@@ -26,7 +27,7 @@ class Button(Object):
         else:
             self.button = pg.draw.rect(self.window, self.colors[self.fill_index], self.pos+self.size, border_radius=self.border_radius)
 
-        await self.text.show()
+        await self.text.draw()
 
 
         is_hover = await self.hover()
