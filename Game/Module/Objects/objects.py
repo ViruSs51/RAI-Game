@@ -16,7 +16,9 @@ class Object:
         self.fill_index = 0
 
 
-    async def draw(self):
+    async def draw(self): ...
+
+    async def drawElemnts(self):
         for e in self.elements:
             await e.draw()
         

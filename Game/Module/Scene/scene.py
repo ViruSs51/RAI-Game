@@ -1,9 +1,9 @@
-from pygame import Surface
+import pygame as pg
 
 
 class Scene:
 
-    def __init__(self, window: Surface, window_size: str|list[int]|tuple[int]):
+    def __init__(self, window: pg.Surface, window_size: str|list[int]|tuple[int]):
         self._window = window
         self._w_size = window_size
 
@@ -11,3 +11,5 @@ class Scene:
         '''
         Se indica toate obiectele si logica pe scena
         '''
+
+        pg.display.update()

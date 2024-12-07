@@ -1,9 +1,9 @@
-from pygame import Surface
+import pygame as pg
 from ..scene import Scene
 from ...Objects.UI.Interface import gameplay_ui
 
 class Room(Scene):
-    def __init__(self, window: Surface, window_size: str | list[int] | tuple[int]):
+    def __init__(self, window: pg.Surface, window_size: str | list[int] | tuple[int]):
         super().__init__(window, window_size)
 
         self.gameplay_interface = gameplay_ui.GameplayInterface(
@@ -13,6 +13,6 @@ class Room(Scene):
         )
 
     async def loader(self):
-        self._window.fill('gray')
-
-        self.gameplay_interface.draw()
+        await self.gameplay_interface.draw()
+        
+        await super().loader()

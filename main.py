@@ -1,7 +1,7 @@
 import pygame as pg
 import asyncio
 
-from  Module import Scene
+from  Game.Module import Scene
 
 
 class Game:

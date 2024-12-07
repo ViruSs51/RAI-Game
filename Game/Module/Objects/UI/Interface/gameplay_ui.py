@@ -8,20 +8,21 @@ class GameplayInterface(Object):
         super().__init__(window, size, position, colors, images_url)
 
         self.elements.append(
+            #Pause button
             button.Button(
                 self.window, 
-                self.size, 
+                size=[50, 50], 
                 position=[
-                    position[0]+100,
-                    position[1]+100
+                    position[0]+10,
+                    position[1]+10
                 ],
                 images_url=[
-                    '../../../../../Game Assets/objects/ui_1/button2-vibration off.png',
-                    '../../../../../Game Assets/objects/ui_1/button2-vibration off.png',
-                    '../../../../../Game Assets/objects/ui_1/button2-vibration om.png'
+                    'Game Assets/objects/ui_1/button-pause.png',
+                    'Game Assets/objects/ui_1/button-pause.png',
+                    'Game Assets/objects/ui_1/button-pause.png'
                 ]
             )
         )
 
     async def draw(self):
-        await super().draw()
+        await self.drawElemnts()
