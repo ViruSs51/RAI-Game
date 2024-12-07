@@ -1,8 +1,11 @@
+from __future__ import annotations
 import pygame as pg
 
-class Object:
 
-    def __init__(self, window: pg.Surface, size: list[int], position: list[int], colors: list[list[int]|str], images_url: list[list[int]|str]=None, border_radius: int=-1):
+class Object:
+    elements: list[Object] = []
+
+    def __init__(self, window: pg.Surface, size: list[int], position: list[int], colors: list[list[int]|str], images_url: list[str]=None, border_radius: int=-1):
         self.window = window
         self.size = size
         self.pos = position
@@ -13,8 +16,11 @@ class Object:
         self.fill_index = 0
 
 
-    async def draw(self):
-        self.images = await self.setImages()  
+    async def draw(self): ...
+
+    async def drawElemnts(self):
+        for e in self.elements:
+            await e.draw()
         
     async def setImages(self) -> list:
         if not self.images_url:
