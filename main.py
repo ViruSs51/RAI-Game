@@ -4,18 +4,26 @@ import asyncio
 from  Game.Module import Scene
 
 
+
+def get_developing_window_size():
+    infoObject = pg.display.Info()
+    return [infoObject.current_w/1.5, infoObject.current_h/1.5]
+
 class Game:
     __run = False
-    __scene = 'spaceship_control_room'
+    __scene = 'main_menu'
 
     def __init__(self, window_size: str|list[int]|tuple[int], title='RAI Game'):
-        self.w_size = window_size
+        self.__w_size = window_size
 
         pg.init()
-        self.__window = self.initWindow(window_size=window_size)
+
+        self.__w_size = get_developing_window_size()
+
+        self.__window = self.initWindow(window_size=self.__w_size)
         pg.display.set_caption(title)
 
-        self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.w_size)
+        self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.__w_size)
 
     @staticmethod
     def initWindow(window_size: str|list[int]|tuple[int]) -> pg.Surface:
