@@ -1,7 +1,8 @@
 import pygame as pg
+from ..objects import Object
 
 
-class Text:
+class Text(Object):
     text_font = None
     text_render = None
     text_rect = None
@@ -24,7 +25,7 @@ class Text:
         self.text_render = self.text_font.render(self.text, True, self.text_colors[self.fill_color], self.background_color[self.fill_background_color] if self.background_color else None)
         self.text_rect = self.text_render.get_rect()
 
-    async def show(self):
+    async def draw(self):
         self.window.blit(self.text_render, self.position)
 
         pg.display.update()
