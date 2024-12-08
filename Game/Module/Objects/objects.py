@@ -24,12 +24,13 @@ class Object:
     async def drawElemnts(self):
         for e in self.elements:
             await e.draw()
+            pg.display.update()
         
-    async def setImages(self) -> list:
+    async def setImages(self, new_images: list=None) -> list:
         if not self.images_url:
             return None
 
-        images = [pg.image.load(i) for i in self.images_url]   
+        images = [pg.image.load(i) for i in (self.images_url if not new_images else new_images)]   
 
         resized_images = []
         for img in images:
@@ -37,6 +38,6 @@ class Object:
                 pg.transform.scale(img, self.size)
             )
 
-        self.fill_image = resized_images[0]
+        if not new_images: self.fill_image = resized_images[0]
 
         return resized_images
