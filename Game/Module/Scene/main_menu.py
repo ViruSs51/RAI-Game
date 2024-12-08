@@ -17,9 +17,9 @@ class MainMenu(Scene, menu.Menu):
         border_distance = 12 
         setting_button_pos =  (2 * (self.height//10.8 )) + initial_button_distance + (2 * btn_distance)
         
-        self.play_button = self.create_button(text="Play Game", position=(border_distance, initial_button_distance))
-        self.settings_button = self.create_button(text="Settings", position=(border_distance, self.height//10.8 + initial_button_distance + btn_distance))
-        self.exit_button = self.create_button(text="Exit", position=(border_distance, setting_button_pos))
+        self.play_button = self.createButton(text="Play Game", position=(border_distance, initial_button_distance))
+        self.settings_button = self.createButton(text="Settings", position=(border_distance, self.height//10.8 + initial_button_distance + btn_distance))
+        self.exit_button = self.createButton(text="Exit", position=(border_distance, setting_button_pos))
         
 
     async def loader(self): 

@@ -17,14 +17,14 @@ class Menu(Object):
         setting_button_pos = self.height//10.8 + initial_button_distance + btn_distance
         exit_button_pos =  (2 * (self.height//10.8 )) + initial_button_distance + (2 * btn_distance)
         
-        self.play_button = self.create_button(text="Play Game", position=(border_distance, initial_button_distance))
-        self.settings_button = self.create_button(text="Settings", position=(border_distance, setting_button_pos))
-        self.exit_button = self.create_button(text="Exit", position=(border_distance, exit_button_pos))
+        self.play_button = self.createButton(text="Play Game", position=(border_distance, initial_button_distance))
+        self.settings_button = self.createButton(text="Settings", position=(border_distance, setting_button_pos))
+        self.exit_button = self.createButton(text="Exit", position=(border_distance, exit_button_pos))
         
 
 
     def createButton(self, text, position, font="Game Assets\casual_passion.ttf"):
-        width, height =self.get_text_size(text)
+        width, height =self.getTextSize(text)
         return Button(
             window=self._window,
             size=(self.width/3.65, self.height//10.8),
