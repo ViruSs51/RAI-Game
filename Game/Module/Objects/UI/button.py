@@ -36,7 +36,6 @@ class Button(Object):
             self.fill_index = 0
             await self.text.updateFill(self.fill_index)
 
-        pg.display.update()
 
     async def press(self) -> bool:
         mouse_x, mouse_y = pg.mouse.get_pos()

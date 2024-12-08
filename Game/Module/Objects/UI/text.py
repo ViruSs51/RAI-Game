@@ -27,7 +27,6 @@ class Text:
     async def show(self):
         self.window.blit(self.text_render, self.position)
 
-        pg.display.update()
     
     async def updateFill(self, fill_index: int):
         self.fill_color = fill_index

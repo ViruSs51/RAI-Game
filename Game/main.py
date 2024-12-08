@@ -61,5 +61,5 @@ class Game:
 
 
 if __name__ == '__main__':
-    game = Game(window_size=(700, 700))
+    game = Game(window_size=(1280, 720))
     game.run()
