@@ -1,24 +1,34 @@
 import pygame as pg
 import asyncio
+import json
 
 from  Game.Module import Scene
 
 
-class Game:
-    __run = False
-    __scene = 'spaceship_control_room'
+def get_developing_window_size():
+    infoObject = pg.display.Info()
+    return [infoObject.current_w/1.5, infoObject.current_h/1.5]
 
-    def __init__(self, window_size: str|list[int]|tuple[int], title='RAI Game'):
-        self.w_size = window_size
+class Game:
+    __run: bool = False
+    __scene: str = 'spaceship_control_room'
+    __config: dict = None
+
+    def __init__(self):
+        self.__config = self.__getConfig('Game/config.json')
+        self.__w_size = self.__config['window']['size']
 
         pg.init()
-        self.__window = self.initWindow(window_size=window_size)
-        pg.display.set_caption(title)
 
-        self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.w_size)
+        #self.__w_size = get_developing_window_size() # Temporar
+
+        self.__window = self.__initWindow(window_size=self.__w_size)
+        pg.display.set_caption(self.__config['window']['title'])
+
+        self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.__w_size, config=self.__config)
 
     @staticmethod
-    def initWindow(window_size: str|list[int]|tuple[int]) -> pg.Surface:
+    def __initWindow(window_size: str|list[int]|tuple[int]) -> pg.Surface:
         '''
         Daca window_size contine o lista de 2 valori care reprezinta marimea la window, creaza un window de marimele date.
         Daca window_size are valoarea de 'FULLSCREEN', creaza un window pe tot ecranul.
@@ -32,6 +42,18 @@ class Game:
             raise ValueError('Invalid value for \'window_size\': Expected a list, tuple, or the string \'FULLSCREEN\'.')
         
         return window
+    
+    @staticmethod
+    def __getConfig(file: str) -> dict:
+        with open(file, 'r', encoding='utf-8') as file_config:
+            config = json.loads(file_config.read())
+            
+        config['characters']['player']['position'] = [
+            config['window']['size'][0] / 2 - config['characters']['player']['size'][0] / 2,
+            config['window']['size'][1] - config['characters']['player']['size'][1] - 200
+        ]
+
+        return config
 
     def run(self):
         self.__run = True
@@ -51,7 +73,7 @@ class Game:
 
             await self.__functionLoader()
 
-            pg.display.update()
+            pg.display.flip()
 
     async def __functionLoader(self):
         '''
@@ -62,5 +84,5 @@ class Game:
 
 
 if __name__ == '__main__':
-    game = Game(window_size=(700, 700))
+    game = Game()
     game.run()

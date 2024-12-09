@@ -24,7 +24,7 @@ class Button(Object):
 
 
     async def draw(self):
-        self.images = await self.setImages()
+        if self.start: self.images = await self.setImages()
         await super().draw()
 
         if self.images:
@@ -43,7 +43,7 @@ class Button(Object):
             
             if self.text: await self.text.updateFill(self.fill_index)
 
-        pg.display.update()
+        await self.oneStart()
 
     async def press(self) -> bool:
         mouse_x, mouse_y = pg.mouse.get_pos()
