@@ -3,11 +3,9 @@ import asyncio
 import json
 
 from  Game.Module import Scene
+from Game.Module.Objects.Controller.controller import Controller
 
 
-def get_developing_window_size():
-    infoObject = pg.display.Info()
-    return [infoObject.current_w/1.5, infoObject.current_h/1.5]
 
 class Game:
     __run: bool = False
@@ -20,11 +18,10 @@ class Game:
 
         pg.init()
 
-        #self.__w_size = get_developing_window_size() # Temporar
-
         self.__window = self.__initWindow(window_size=self.__w_size)
         pg.display.set_caption(self.__config['window']['title'])
 
+        self.__controller = Controller()
         self.__player = Scene.init_player(window=self.__window, config=self.__config)
         self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.__w_size, player=self.__player, config=self.__config)
 
@@ -67,7 +64,7 @@ class Game:
     async def __loop(self):
         while self.__run:
             self.__window.fill('black')
-            
+
             # Verifica daca se apasa close la window, daca da, window se inchide
             for e in pg.event.get(): 
                 self.__run = False if e.type == pg.QUIT else True
