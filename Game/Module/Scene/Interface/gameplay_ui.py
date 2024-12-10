@@ -1,23 +1,25 @@
 import pygame as pg
-from ...Objects.objects import Object
+
 from ...Scene.scene import Scene
+from ...Objects.objects import Object
 from ...Objects.UI import text, button
+from ...Objects.Character.Player.player import Player
 
 
-class GameplayInterface(Object, Scene):
+class GameplayInterface(Scene):
     not_on_scenes = ['main_menu']
 
-    def __init__(self, window: pg.Surface, size: list[int], colors: list[list[int] | str]=None, position: list[int]=[0,0], images_url: list[str] = None):
-        super().__init__(window, size, position, colors, images_url)
+    def __init__(self, window: pg.Surface, window_size: str | list[int] | tuple[int], config: dict):
+        super().__init__(window, window_size, config)
 
-        self.elements.append(
+        self.addObject(
             #Pause button
             button.Button(
-                self.window, 
-                size=[50, 50], 
+                self._window, 
+                size=[70, 70], 
                 position=[
-                    position[0]+10,
-                    position[1]+10
+                    10,
+                    10
                 ],
                 images_url=[
                     'Game Assets/objects/ui_1/button-pause.png',
@@ -27,5 +29,7 @@ class GameplayInterface(Object, Scene):
             )
         )
 
-    async def draw(self):
-        await self.drawElemnts()
+    async def loader(self):
+
+
+        await super().loader()

@@ -23,7 +23,7 @@ class Game:
         pg.display.set_caption(self.__config['window']['title'])
 
 
-        self.__gameplay_interface = gameplay_ui.GameplayInterface(window=self.__window, size=self.__w_size)
+        self.__gameplay_interface = gameplay_ui.GameplayInterface(window=self.__window, window_size=self.__w_size, config=self.__config)
         self.__controller = Controller()
         self.__player = Scene.init_player(window=self.__window, config=self.__config)
         self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.__w_size, player=self.__player, config=self.__config)
@@ -83,7 +83,7 @@ class Game:
         await self.__scenes[self.__scene].loader()
 
         if not self.__scene in self.__gameplay_interface.not_on_scenes:
-            await self.__gameplay_interface.draw()
+            await self.__gameplay_interface.loader()
         
 
 if __name__ == '__main__':
