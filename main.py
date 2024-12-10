@@ -3,6 +3,7 @@ import asyncio
 import json
 
 from  Game.Module import Scene
+from Game.Module.Scene.Interface import gameplay_ui
 from Game.Module.Objects.Controller.controller import Controller
 
 
@@ -21,6 +22,8 @@ class Game:
         self.__window = self.__initWindow(window_size=self.__w_size)
         pg.display.set_caption(self.__config['window']['title'])
 
+
+        self.__gameplay_interface = gameplay_ui.GameplayInterface(window=self.__window, size=self.__w_size)
         self.__controller = Controller()
         self.__player = Scene.init_player(window=self.__window, config=self.__config)
         self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.__w_size, player=self.__player, config=self.__config)
@@ -78,8 +81,10 @@ class Game:
         Aceasta functie e pentru a indica ordinea de indiplinire a functiilor globale in joc
         '''
         await self.__scenes[self.__scene].loader()
-        
 
+        if not self.__scene in self.__gameplay_interface.not_on_scenes:
+            await self.__gameplay_interface.draw()
+        
 
 if __name__ == '__main__':
     game = Game()
