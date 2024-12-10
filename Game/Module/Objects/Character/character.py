@@ -1,16 +1,14 @@
 import pygame as pg
 from ...Objects.objects import Object
 from ..animation import Animation
-from ...Scene.scene import Scene
 
 
 class Character(Object):
     character: pg.Rect
 
-    def __init__(self, window: pg.Surface, scene: Scene, size: list[int], position: list[int], images_url: list[str]):
+    def __init__(self, window: pg.Surface, size: list[int], position: list[int], images_url: list[str]):
         super().__init__(window, size, position, colors=None, images_url=images_url, border_radius=-1)
 
-        self.scene = scene
         self.animation = Animation(
             window=window,
             size=self.size,

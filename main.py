@@ -25,7 +25,8 @@ class Game:
         self.__window = self.__initWindow(window_size=self.__w_size)
         pg.display.set_caption(self.__config['window']['title'])
 
-        self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.__w_size, config=self.__config)
+        self.__player = Scene.init_player(window=self.__window, config=self.__config)
+        self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.__w_size, player=self.__player, config=self.__config)
 
     @staticmethod
     def __initWindow(window_size: str|list[int]|tuple[int]) -> pg.Surface:
