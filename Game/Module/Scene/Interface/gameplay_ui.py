@@ -1,9 +1,12 @@
 import pygame as pg
-from ...objects import Object
-from ...UI import text, button
+from ...Objects.objects import Object
+from ...Scene.scene import Scene
+from ...Objects.UI import text, button
 
 
-class GameplayInterface(Object):
+class GameplayInterface(Object, Scene):
+    not_on_scenes = ['main_menu']
+
     def __init__(self, window: pg.Surface, size: list[int], colors: list[list[int] | str]=None, position: list[int]=[0,0], images_url: list[str] = None):
         super().__init__(window, size, position, colors, images_url)
 
