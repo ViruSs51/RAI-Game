@@ -6,7 +6,6 @@ from ....Objects.UI.button import Button
 
 
 class ControlRoom(Room):
-    i = 0
     def __init__(self, window: pg.Surface, window_size: str | list[int] | tuple[int], config: dict, player: Player):
         super().__init__(window=window, window_size=window_size, config=config, player=player)
 
