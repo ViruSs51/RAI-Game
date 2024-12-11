@@ -12,6 +12,4 @@ class ControlRoom(Room):
         self.addObject(self._player)
 
     async def loader(self):
-
-        
-        await super().loader()
+        return await super().loader()

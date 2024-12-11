@@ -8,4 +8,4 @@ class Room(Scene):
         super().__init__(window=window, window_size=window_size, config=config, player=player)
 
     async def loader(self):
-        await super().loader()
+        return await super().loader()

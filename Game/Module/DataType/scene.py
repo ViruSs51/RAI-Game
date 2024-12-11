@@ -15,3 +15,6 @@ class Scenes:
 
     def __getitem__(self, name: str) -> Any:
         return getattr(self, name)
+    
+    def __contains__(self, item):
+        return item in self.__dict__

@@ -2,7 +2,9 @@ import pygame as pg
 import asyncio
 import json
 
-from  Game.Module import Scene
+from Game.Module import Scene as S
+from Game.Module.Scene.scene import Scene
+from Game.Module.DataType.scene import Scenes
 from Game.Module.Scene.Interface import gameplay_ui
 from Game.Module.Objects.Controller.controller import Controller
 
@@ -25,8 +27,8 @@ class Game:
 
         self.__gameplay_interface = gameplay_ui.GameplayInterface(window=self.__window, window_size=self.__w_size, config=self.__config)
         self.__controller = Controller()
-        self.__player = Scene.init_player(window=self.__window, config=self.__config)
-        self.__scenes = Scene.load_scenes(window=self.__window, window_size=self.__w_size, player=self.__player, config=self.__config)
+        self.__player = S.init_player(window=self.__window, config=self.__config)
+        self.__scenes = S.load_scenes(window=self.__window, window_size=self.__w_size, player=self.__player, config=self.__config)
 
     @staticmethod
     def __initWindow(window_size: str|list[int]|tuple[int]) -> pg.Surface:
@@ -55,6 +57,12 @@ class Game:
         ]
 
         return config
+    
+    async def __callScene(self, object: Scenes|Scene):
+        swap_scene = await self.__scenes[self.__scene].loader() if type(object) is Scenes else await object.loader()
+
+        if swap_scene is not None and swap_scene in self.__scenes:
+            self.__scene = swap_scene
 
     def run(self):
         self.__run = True
@@ -80,10 +88,10 @@ class Game:
         '''
         Aceasta functie e pentru a indica ordinea de indiplinire a functiilor globale in joc
         '''
-        await self.__scenes[self.__scene].loader()
+        await self.__callScene(object=self.__scenes)
 
         if not self.__scene in self.__gameplay_interface.not_on_scenes:
-            await self.__gameplay_interface.loader()
+            await self.__callScene(object=self.__gameplay_interface)
         
 
 if __name__ == '__main__':
