@@ -4,7 +4,6 @@ from ..DataType import scene
 from ..Objects.Character.Player.player import Player
 from ..Scene import main_menu
 from ..Scene.Room.Spaceship import control_room
-from ..Scene.Interface import gameplay_ui
 
 
 def load_scenes(window: Surface, window_size: str|list[int]|tuple[int], player: Player, config: dict) -> scene.Scenes:

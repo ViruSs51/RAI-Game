@@ -9,4 +9,4 @@ class MainMenu(Scene):
         super().__init__(window=window, window_size=window_size, config=config)
 
     async def loader(self):
-        ...
+        return await super().loader()
