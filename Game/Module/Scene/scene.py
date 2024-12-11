@@ -23,7 +23,6 @@ class Scene:
         '''
         Se indica toate obiectele si logica pe scena
         '''
-        print(self.objects)
         for o in self.objects:
             await o.draw()
 
