@@ -1,25 +1,37 @@
 import pygame as pg
 import asyncio
+import json
 
-from  Module import Scene
+from Game.Module import Scene as S
+from Game.Module.Scene.scene import Scene
+from Game.Module.DataType.scene import Scenes
+from Game.Module.Scene.Interface import gameplay_ui
+from Game.Module.Objects.Controller.controller import Controller
+
 
 
 class Game:
-    __run = False
-    __scene = 'loading_scene'
+    __run: bool = False
+    __scene: str = 'spaceship_control_room'
+    __config: dict = None
 
-    def __init__(self, window_size: str|list[int]|tuple[int], title='RAI Game'):
-        self.w_size = window_size
+    def __init__(self):
+        self.__config = self.__getConfig('Game/config.json')
+        self.__w_size = self.__config['window']['size']
 
         pg.init()
-        self.__window = self.initWindow(window_size=window_size)
-        pg.display.set_caption(title)
 
-        self.__scenes = Scene.load_scenes(window=self.__window)
-        self.__background_task = None 
+        self.__window = self.__initWindow(window_size=self.__w_size)
+        pg.display.set_caption(self.__config['window']['title'])
+
+
+        self.__gameplay_interface = gameplay_ui.GameplayInterface(window=self.__window, window_size=self.__w_size, config=self.__config)
+        self.__controller = Controller()
+        self.__player = S.init_player(window=self.__window, config=self.__config)
+        self.__scenes = S.load_scenes(window=self.__window, window_size=self.__w_size, player=self.__player, config=self.__config)
 
     @staticmethod
-    def initWindow(window_size: str|list[int]|tuple[int]) -> pg.Surface:
+    def __initWindow(window_size: str|list[int]|tuple[int]) -> pg.Surface:
         '''
         Daca window_size contine o lista de 2 valori care reprezinta marimea la window, creaza un window de marimele date.
         Daca window_size are valoarea de 'FULLSCREEN', creaza un window pe tot ecranul.
@@ -33,52 +45,55 @@ class Game:
             raise ValueError('Invalid value for \'window_size\': Expected a list, tuple, or the string \'FULLSCREEN\'.')
         
         return window
+    
+    @staticmethod
+    def __getConfig(file: str) -> dict:
+        with open(file, 'r', encoding='utf-8') as file_config:
+            config = json.loads(file_config.read())
+            
+        config['characters']['player']['position'] = [
+            config['window']['size'][0] / 2 - config['characters']['player']['size'][0] / 2,
+            config['window']['size'][1] - config['characters']['player']['size'][1] - 200
+        ]
+
+        return config
+    
+    async def __callScene(self, object: Scenes|Scene):
+        swap_scene = await self.__scenes[self.__scene].loader() if type(object) is Scenes else await object.loader()
+
+        if swap_scene is not None and swap_scene in self.__scenes:
+            self.__scene = swap_scene
 
     def run(self):
         self.__run = True
 
-        
         asyncio.run(self.__asyncronRun())
 
+    async def __asyncronRun(self):
+        await self.__loop()
     
     async def __loop(self):
-
-        self.__background_task = asyncio.create_task(self.loadMainMenu())
-
         while self.__run:
             self.__window.fill('black')
-            
+
+            # Verifica daca se apasa close la window, daca da, window se inchide
             for e in pg.event.get(): 
                 self.__run = False if e.type == pg.QUIT else True
 
             await self.__functionLoader()
 
-            pg.display.update()
+            pg.display.flip()
 
     async def __functionLoader(self):
         '''
         Aceasta functie e pentru a indica ordinea de indiplinire a functiilor globale in joc
         '''
-        next_scene = await self.__scenes[self.__scene].loader()
+        await self.__callScene(object=self.__scenes)
 
-        if self.__background_task.done():
-            print(f"Transitioning to scene: {next_scene}")
-            self.__scene = next_scene
-
-
-    async def loadMainMenu(self):
-        '''
-        Background task to load the main menu assets.
-        '''
-        if 'main_menu' in self.__scenes:
-            print("Loading main menu assets...")
-            await self.__scenes['main_menu'].loadAssets()
-            print("Main menu assets loaded.")
-    
-    async def __asyncronRun(self):
-        # Start the background task for preloading the main menu
-        await self.__loop()
+        if not self.__scene in self.__gameplay_interface.not_on_scenes:
+            await self.__callScene(object=self.__gameplay_interface)
+        
 
 if __name__ == '__main__':
-    game = Game(window_size=(1280, 720))
+    game = Game()
     game.run()
