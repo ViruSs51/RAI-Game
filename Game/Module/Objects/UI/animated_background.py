@@ -7,17 +7,19 @@ from pygame import Surface
 class AnimatedBackground():
     def __init__(self, gif_path, size):
         self.frames = []
+        self.loading = True
         self.load_gif(gif_path, size)
         self.current_frame = 0
         self.last_update_time = time.time()
         self.frame_duration = 0.04  # Duration for each frame (in seconds)
+        
 
     def load_gif(self, gif_path, size):
         """
         Load GIF frames using Pillow and resize them to the desired size.
         """
         gif = Image.open(gif_path)
-        while True:
+        while self.loading:
             # Convert each frame to a Pygame Surface
             frame = gif.convert("RGBA")
             mode = frame.mode
@@ -31,7 +33,7 @@ class AnimatedBackground():
             try:
                 gif.seek(gif.tell() + 1)
             except EOFError:
-                break
+                self.loading = False
 
     async def update(self):
         """

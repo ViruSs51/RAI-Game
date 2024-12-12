@@ -6,7 +6,7 @@ from  Module import Scene
 
 class Game:
     __run = False
-    __scene = 'main_menu'
+    __scene = 'loading_scene'
 
     def __init__(self, window_size: str|list[int]|tuple[int], title='RAI Game'):
         self.w_size = window_size
@@ -16,6 +16,7 @@ class Game:
         pg.display.set_caption(title)
 
         self.__scenes = Scene.load_scenes(window=self.__window)
+        self.__background_task = None 
 
     @staticmethod
     def initWindow(window_size: str|list[int]|tuple[int]) -> pg.Surface:
@@ -36,16 +37,17 @@ class Game:
     def run(self):
         self.__run = True
 
+        
         asyncio.run(self.__asyncronRun())
 
-    async def __asyncronRun(self):
-        await self.__loop()
     
     async def __loop(self):
+
+        self.__background_task = asyncio.create_task(self.loadMainMenu())
+
         while self.__run:
             self.__window.fill('black')
             
-            # Verifica daca se apasa close la window, daca da, window se inchide
             for e in pg.event.get(): 
                 self.__run = False if e.type == pg.QUIT else True
 
@@ -57,8 +59,25 @@ class Game:
         '''
         Aceasta functie e pentru a indica ordinea de indiplinire a functiilor globale in joc
         '''
-        await self.__scenes[self.__scene].loader()
+        next_scene = await self.__scenes[self.__scene].loader()
 
+        if self.__background_task.done():
+            print(f"Transitioning to scene: {next_scene}")
+            self.__scene = next_scene
+
+
+    async def loadMainMenu(self):
+        '''
+        Background task to load the main menu assets.
+        '''
+        if 'main_menu' in self.__scenes:
+            print("Loading main menu assets...")
+            await self.__scenes['main_menu'].loadAssets()
+            print("Main menu assets loaded.")
+    
+    async def __asyncronRun(self):
+        # Start the background task for preloading the main menu
+        await self.__loop()
 
 if __name__ == '__main__':
     game = Game(window_size=(1280, 720))

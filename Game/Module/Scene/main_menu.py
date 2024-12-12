@@ -1,7 +1,7 @@
 from pygame import Surface,image,transform, font
 from .scene import Scene
 from ..Objects.UI import animated_background, menu
-import asyncio
+import asyncio, time
 
 class MainMenu(Scene, menu.Menu):
 
@@ -9,9 +9,6 @@ class MainMenu(Scene, menu.Menu):
         super().__init__(window=window)
         self.width, self.height = self._window.get_size()
         self.font = font.Font("Game Assets\casual_passion.ttf", 25)
-
-        self.background = animated_background.AnimatedBackground(rf"Game Assets\main_assets\animated_background.gif", 255)
-
         btn_distance = 12*2 # I took 12 as base for distance 
         initial_button_distance = (self.height * 0.225 + self.height * 0.22)
         border_distance = 12 
@@ -21,6 +18,13 @@ class MainMenu(Scene, menu.Menu):
         self.settings_button = self.createButton(text="Settings", position=(border_distance, self.height//10.8 + initial_button_distance + btn_distance))
         self.exit_button = self.createButton(text="Exit", position=(border_distance, setting_button_pos))
         
+    async def loadAssets(self):
+        '''
+        Simulates asset loading with async logic.
+        '''
+        print("Works")
+        self.background = animated_background.AnimatedBackground(rf"Game Assets\main_assets\animated_background.gif", 255)
+
 
     async def loader(self): 
         await self.background.update()
