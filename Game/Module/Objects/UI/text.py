@@ -27,6 +27,7 @@ class Text(Object):
 
     async def draw(self):
         self.window.blit(self.text_render, self.position)
+
     
     async def updateFill(self, fill_index: int):
         self.fill_color = fill_index

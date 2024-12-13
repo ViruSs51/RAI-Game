@@ -40,10 +40,9 @@ class Button(Object):
 
         if not is_hover and not is_press:
             self.fill_index = 0
-            
-            if self.text: await self.text.updateFill(self.fill_index)
+            await self.text.updateFill(self.fill_index)
 
-        await self.oneStart()
+
 
     async def press(self) -> bool:
         mouse_x, mouse_y = pg.mouse.get_pos()
