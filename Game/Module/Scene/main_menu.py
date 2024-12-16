@@ -1,7 +1,7 @@
 from pygame import Surface,image,transform, font
 from .scene import Scene
 from ..Objects.UI import animated_background, menu
-import asyncio, time
+import asyncio
 import threading
 class MainMenu(Scene, menu.Menu):
 

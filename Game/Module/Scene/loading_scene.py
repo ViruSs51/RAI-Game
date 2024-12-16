@@ -1,6 +1,5 @@
 from pygame import Surface,image,transform
 from .scene import Scene
-import asyncio
 import threading
 class Loading(Scene):
     swap_scene = "main_menu"
