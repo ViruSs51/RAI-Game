@@ -62,7 +62,6 @@ class Game:
         swap_scene = await self.__scenes[self.__scene].loader() if type(object) is Scenes else await object.loader()
 
         if swap_scene is not None and swap_scene in self.__scenes:
-            print("Works")
             self.__scene = swap_scene
 
     def run(self):

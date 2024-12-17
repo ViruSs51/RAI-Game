@@ -3,6 +3,8 @@ from typing import Any
 
 from ..Scene.main_menu import MainMenu
 from ..Scene.loading_scene import Loading
+from ..Scene.Room.Spaceship.control_room import ControlRoom
+
 
 @dataclass
 class Scenes:
@@ -11,6 +13,7 @@ class Scenes:
     '''
     loading_scene: Loading
     main_menu: MainMenu
+    spaceship_control_room: ControlRoom 
 
     def __getitem__(self, name: str) -> Any:
         return getattr(self, name)

@@ -24,4 +24,7 @@ class Scene:
         Se indica toate obiectele si logica pe scena
         '''
         
+        for o in self.objects:
+            await o.draw()  
+
         return self.swap_scene
