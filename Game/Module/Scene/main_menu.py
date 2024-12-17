@@ -35,11 +35,14 @@ class MainMenu(Scene, menu.Menu):
             self._window.blit(transform.scale(self.background.get_current_frame(), (self._window.get_size())), (0,0))
 
         self._window.blit(transform.scale(image.load("Game Assets\main_assets\logo.png"), (int(self.width*0.20), int(self.height*0.22))), (12,12))
-        await asyncio.gather(
+        buttons_press = await asyncio.gather(
             self.play_button.draw(),
             self.settings_button.draw(),
             self.exit_button.draw()
-        )   
+        )
+
+        if buttons_press[0]: self.swap_scene = 'spaceship_control_room'
+        
         return await super().loader()
 
 

@@ -8,7 +8,7 @@ class Loading(Scene):
         super().__init__(window=window, window_size=window_size, config=config) 
         self.bg_image =image.load("Game Assets\main_assets\loading_image.png")  
         self.width, self.height = self._window.get_size()
-        self.WORK = 250000000
+        self.WORK = 10000000
         self.distance = 12
 
         self._window.blit(transform.scale(self.bg_image, (self._window.get_size())), (0,0))
