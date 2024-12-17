@@ -35,7 +35,7 @@ class Text(Object):
 
         self.init()
 
-    async def updatePosition(self, position: list[int]):
+    def updatePosition(self, position: list[int]):
         self.position = position
 
         self.init()
