@@ -19,11 +19,12 @@ class Scene:
         for o in objects:
             self.objects.append(o)
 
-    async def loader(self) -> str|None:
+    async def loader(self):
         '''
         Se indica toate obiectele si logica pe scena
         '''
+        
         for o in self.objects:
-            await o.draw()
+            await o.draw()  
 
         return self.swap_scene

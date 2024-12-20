@@ -12,7 +12,7 @@ from Game.Module.Objects.Controller.controller import Controller
 
 class Game:
     __run: bool = False
-    __scene: str = 'spaceship_control_room'
+    __scene: str = 'loading_scene'
     __config: dict = None
 
     def __init__(self):
