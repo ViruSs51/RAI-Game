@@ -3,11 +3,18 @@ import pygame as pg
 
 
 class Object:
-    start = True
-    fill_index = 0
-    elements: list[Object] = []
-
-    def __init__(self, window: pg.Surface, size: list[int], position: list[int], colors: list[list[int]|str], images_url: list[str]=None, border_radius: int=-1):
+    def __init__(
+        self,
+        window: pg.Surface,
+        size: list[int],
+        position: list[int],
+        colors: list[list[int] | str],
+        images_url: list[str] = None,
+        border_radius: int = -1,
+    ):
+        self.start = True
+        self.fill_index = 0
+        self.fill_image = None
         self.window = window
         self.size = size
         self.pos = position
@@ -21,23 +28,20 @@ class Object:
 
     async def draw(self): ...
 
-    async def drawElemnts(self):
-        for e in self.elements:
-            await e.draw()
-            pg.display.update()
-        
-    async def setImages(self, new_images: list=None) -> list:
+    async def setImages(self, new_images: list = None) -> list:
         if not self.images_url:
             return None
 
-        images = [pg.image.load(i) for i in (self.images_url if not new_images else new_images)]   
+        images = [
+            pg.image.load(i)
+            for i in (self.images_url if not new_images else new_images)
+        ]
 
         resized_images = []
         for img in images:
-            resized_images.append(
-                pg.transform.scale(img, self.size)
-            )
+            resized_images.append(pg.transform.scale(img, self.size))
 
-        if not new_images: self.fill_image = resized_images[0]
+        if not new_images:
+            self.fill_image = resized_images[0]
 
         return resized_images
