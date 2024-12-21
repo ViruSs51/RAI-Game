@@ -37,8 +37,7 @@ class Animation(Object):
         await self.delay(perspective=perspective)
         self.window.blit(self.fill_image, self.pos)
 
-        if self.start:
-            await self.oneStart()
+        await self.oneStart()
 
     async def delay(self, perspective: int):
         if time() >= self.max_dalay:
