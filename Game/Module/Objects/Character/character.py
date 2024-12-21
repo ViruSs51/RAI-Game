@@ -5,6 +5,8 @@ from ..animation import Animation
 
 class Character(Object):
     character: pg.Rect
+    perspective: int = 0
+    type_animation: int = 0
 
     def __init__(self, window: pg.Surface, size: list[int], position: list[int], images_url: list[str]):
         super().__init__(window, size, position, colors=None, images_url=images_url, border_radius=-1)
@@ -20,15 +22,6 @@ class Character(Object):
     async def draw(self):
         await self.oneStart()
 
-    async def upAnimation(self):
-        await self.animation.draw(perspective=0)
-
-    async def rightAnimation(self):
-        await self.animation.draw(perspective=1)
-
-    async def downAnimation(self):
-        await self.animation.draw(perspective=2)
-
-    async def leftAnimation(self):
-        await self.animation.draw(perspective=3)
+    async def standAnimation(self):
+        await self.animation.draw(perspective=self.perspective+4*self.type_animation)
     
