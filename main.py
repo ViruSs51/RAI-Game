@@ -33,6 +33,8 @@ class Game:
             config=self.__config,
         )
 
+        self.loadSounds()
+
     @staticmethod
     def __initWindow(window_size: str | list[int] | tuple[int]) -> pg.Surface:
         """
@@ -107,6 +109,10 @@ class Game:
         if not self.__scene in self.__gameplay_interface.not_on_scenes:
             await self.__callScene(object=self.__gameplay_interface)
 
+    def loadSounds(self):
+        pg.mixer.music.load("Game Assets/sounds/background/background_cosmic_serenity.mp3")
+        pg.mixer.music.set_volume(0.5)
+        pg.mixer.music.play(loops=-1)
 
 if __name__ == "__main__":
     game = Game()
