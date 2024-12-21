@@ -1,10 +1,11 @@
 import pygame as pg
 from PIL import Image
 import time
-from ...Scene import scene 
+from ...Scene import scene
 from pygame import Surface
 
-class AnimatedBackground():
+
+class AnimatedBackground:
     def __init__(self, gif_path, size):
         self.frames = []
         self.loading = True
@@ -12,7 +13,6 @@ class AnimatedBackground():
         self.current_frame = 0
         self.last_update_time = time.time()
         self.frame_duration = 0.04  # Duration for each frame (in seconds)
-        
 
     def load_gif(self, gif_path, size):
         """
@@ -42,7 +42,6 @@ class AnimatedBackground():
         if time.time() - self.last_update_time > self.frame_duration:
             self.current_frame = (self.current_frame + 1) % len(self.frames)
             self.last_update_time = time.time()
-
 
     def get_current_frame(self):
         return self.frames[self.current_frame]

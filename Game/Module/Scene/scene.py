@@ -9,7 +9,13 @@ class Scene:
     swap_scene = None
     returned = []
 
-    def __init__(self, window: pg.Surface, window_size: str|list[int]|tuple[int], config: dict, player: Player=None):
+    def __init__(
+        self,
+        window: pg.Surface,
+        window_size: str | list[int] | tuple[int],
+        config: dict,
+        player: Player = None,
+    ):
         self.objects = []
         self._window = window
         self._w_size = window_size
@@ -21,12 +27,12 @@ class Scene:
             self.objects.append(o)
 
     async def loader(self):
-        '''
+        """
         Se indica toate obiectele si logica pe scena
-        '''
-        
+        """
+
         self.returned = []
         for o in self.objects:
-            self.returned.append(await o.draw()) 
+            self.returned.append(await o.draw())
 
         return self.swap_scene

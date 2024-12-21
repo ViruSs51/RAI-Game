@@ -3,8 +3,15 @@ import pygame as pg
 from ..character import Character
 from ...Controller.controller import Controller
 
+
 class Player(Character):
-    def __init__(self, window: pg.Surface, size: list[int], position: list[int], images_url: list[str]):
+    def __init__(
+        self,
+        window: pg.Surface,
+        size: list[int],
+        position: list[int],
+        images_url: list[str],
+    ):
         super().__init__(window, size, position, images_url)
 
         self.controller = Controller()
@@ -16,33 +23,32 @@ class Player(Character):
         await self.control()
 
     async def control(self):
-        if await self.controller.getPressed('shift'):
+        if await self.controller.getPressed("shift"):
             self.type_animation = 2
             self.speed = self.running_speed
 
         else:
             self.speed = self.main_speed
 
-        if await self.controller.getPressed('w'):
+        if await self.controller.getPressed("w"):
             self.pos[1] -= self.speed
             self.perspective = 0
             self.type_animation = 1
-        
-        elif await self.controller.getPressed('s'):
+
+        elif await self.controller.getPressed("s"):
             self.pos[1] += self.speed
             self.perspective = 2
             self.type_animation = 1
-        
-        elif await self.controller.getPressed('a'):
+
+        elif await self.controller.getPressed("a"):
             self.pos[0] -= self.speed
             self.perspective = 3
             self.type_animation = 1
-        
-        elif await self.controller.getPressed('d'):
+
+        elif await self.controller.getPressed("d"):
             self.pos[0] += self.speed
             self.perspective = 1
             self.type_animation = 1
-        
+
         else:
             self.type_animation = 0
-        
