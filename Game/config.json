@@ -78,6 +78,9 @@
                     "Game Assets/character/up_perspective/human_1/unarmed/walk/Unarmed_walk_back6.png",
                     "Game Assets/character/up_perspective/human_1/unarmed/walk/Unarmed_walk_back6.png"
                 ],
+
+
+
                 [
                     "Game Assets/character/right_side_perspective/human_1/unarmed/walk/Unarmed_walk_right_side1.png",
                     "Game Assets/character/right_side_perspective/human_1/unarmed/walk/Unarmed_walk_right_side1.png",
@@ -119,6 +122,65 @@
                     "Game Assets/character/left_side_perspective/human_1/unarmed/walk/Unarmed_walk_left_side5.png",
                     "Game Assets/character/left_side_perspective/human_1/unarmed/walk/Unarmed_walk_left_side6.png",
                     "Game Assets/character/left_side_perspective/human_1/unarmed/walk/Unarmed_walk_left_side6.png"
+                ],
+
+
+
+                [
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back1.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back1.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back2.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back2.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back3.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back4.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back5.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back6.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back7.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back7.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back8.png",
+                    "Game Assets/character/up_perspective/human_1/unarmed/run/Unarmed_run_back8.png"
+                ],
+                [
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right1.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right1.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right2.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right2.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right3.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right4.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right5.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right6.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right7.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right7.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right8.png",
+                    "Game Assets/character/right_side_perspective/human_1/unarmed/run/Unarmed_run_side_right8.png"
+                ],
+                [
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front1.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front1.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front2.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front2.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front3.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front4.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front5.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front6.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front7.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front7.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front8.png",
+                    "Game Assets/character/down_perspective/human_1/unarmed/run/Unarmed_run_front8.png"
+                ],
+                [
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left1.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left1.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left2.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left2.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left3.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left4.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left5.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left6.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left7.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left7.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left8.png",
+                    "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left8.png"
                 ]
             ] 
         }
