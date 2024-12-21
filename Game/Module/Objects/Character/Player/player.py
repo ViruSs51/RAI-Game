@@ -16,23 +16,30 @@ class Player(Character):
         await self.control()
 
     async def control(self):
+        if await self.controller.getPressed('shift'):
+            self.type_animation = 2
+            self.speed = self.running_speed
+
+        else:
+            self.speed = self.main_speed
+
         if await self.controller.getPressed('w'):
-            self.pos[1] -= 0.3
+            self.pos[1] -= self.speed
             self.perspective = 0
             self.type_animation = 1
         
         elif await self.controller.getPressed('s'):
-            self.pos[1] += 0.3
+            self.pos[1] += self.speed
             self.perspective = 2
             self.type_animation = 1
         
         elif await self.controller.getPressed('a'):
-            self.pos[0] -= 0.3
+            self.pos[0] -= self.speed
             self.perspective = 3
             self.type_animation = 1
         
         elif await self.controller.getPressed('d'):
-            self.pos[0] += 0.3
+            self.pos[0] += self.speed
             self.perspective = 1
             self.type_animation = 1
         

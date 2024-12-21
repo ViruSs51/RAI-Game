@@ -82,7 +82,6 @@ class Game:
             await self.__functionLoader()
 
             pg.display.flip()
-            pg.display.update()
         
         pg.quit()
 
