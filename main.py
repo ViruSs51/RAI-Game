@@ -26,7 +26,6 @@ class Game:
 
 
         self.__gameplay_interface = gameplay_ui.GameplayInterface(window=self.__window, window_size=self.__w_size, config=self.__config)
-        self.__controller = Controller()
         self.__player = S.init_player(window=self.__window, config=self.__config)
         self.__scenes = S.load_scenes(window=self.__window, window_size=self.__w_size, player=self.__player, config=self.__config)
 
@@ -83,6 +82,9 @@ class Game:
             await self.__functionLoader()
 
             pg.display.flip()
+            pg.display.update()
+        
+        pg.quit()
 
     async def __functionLoader(self):
         '''
