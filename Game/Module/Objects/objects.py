@@ -3,9 +3,6 @@ import pygame as pg
 
 
 class Object:
-    start = True
-    fill_index = 0
-
     def __init__(
         self,
         window: pg.Surface,
@@ -15,6 +12,9 @@ class Object:
         images_url: list[str] = None,
         border_radius: int = -1,
     ):
+        self.start = True
+        self.fill_index = 0
+        self.fill_image = None
         self.window = window
         self.size = size
         self.pos = position
