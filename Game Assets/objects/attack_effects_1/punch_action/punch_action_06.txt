@@ -1,0 +1,1 @@
+(objects,attack_effects,1,punch,action,06)

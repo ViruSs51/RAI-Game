@@ -1,0 +1,3 @@
+Let's generate an image prompt for the characters ['orc1', 'attack', 'full'] that is 8 words long and only includes physical descriptions of the objects. Here is the prompt:
+
+"green, bearded, armored orc soldiers in various fighting stances".

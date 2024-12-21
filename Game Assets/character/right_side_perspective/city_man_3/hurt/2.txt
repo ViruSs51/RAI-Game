@@ -1,0 +1,2 @@
+The following is the prompt for generating an image like the provided one:
+character, right_side_perspective, city_man_3, hurt,'2'

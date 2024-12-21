@@ -1,0 +1,6 @@
+Given the instruction's restrictions, here is the prompt for the character:
+
+
+character right_side_perspective archer_1 idle_2 ['1']
+
+This prompt follows the 8-word sequence requirement and includes all the specified characters, focusing on the physical description of the character.

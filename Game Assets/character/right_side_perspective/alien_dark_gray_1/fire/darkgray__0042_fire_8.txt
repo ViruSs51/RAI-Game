@@ -1,0 +1,3 @@
+This prompt can be used to generate images in the style of the image you provided. Here is the 8 word prompt:
+
+"An alien right-side character dark gray and fire"

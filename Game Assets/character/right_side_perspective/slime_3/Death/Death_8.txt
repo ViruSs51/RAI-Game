@@ -1,0 +1,3 @@
+Here is a summary of your prompt: A cartoon pixelated hot dog character with a pixelated yellow flame flying out of top-right of its head, right-side perspective, slime 3, and death ['Death', '8'].
+
+This prompt includes all the characters described in your request: character, right_side_perspective, slime_3, Death ['Death', '8'], with a length of eight words and only using words to describe the character's physical appearance, without any additional text or disturbing content.

@@ -1,0 +1,1 @@
+The prompt should be: Draw an alien character in right-side perspective with a dark gray color, a 0026 dead body, and [darkgray, '', '0026', 'dead', '5'] properties.

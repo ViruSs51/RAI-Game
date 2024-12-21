@@ -1,0 +1,3 @@
+Here is an 8-word prompt for the character using only words that describe the object physically, along with the required words:
+
+"character left_side_perspective orc_3 run ['Frame 7'] green muscular."

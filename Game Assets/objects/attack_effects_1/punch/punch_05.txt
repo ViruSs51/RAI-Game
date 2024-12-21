@@ -1,0 +1,1 @@
+objects attack_effects_1 punch ['punch', '05', 50, 'circle']

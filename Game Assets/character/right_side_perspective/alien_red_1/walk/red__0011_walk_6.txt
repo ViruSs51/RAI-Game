@@ -1,0 +1,1 @@
+character right_side_perspective alien_red_1 walk ['red', 'simple', '1', '2', 'walk', '4'].

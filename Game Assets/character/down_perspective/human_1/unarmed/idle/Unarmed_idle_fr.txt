@@ -1,0 +1,1 @@
+Unarmed idle fr. Is a humanoid object with a pixelated appearance, sitting on the ground, lacking any discernible features beyond its size and color.

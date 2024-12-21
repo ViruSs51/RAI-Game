@@ -1,0 +1,1 @@
+character right_side_perspective cyber_1 Idle2 ['4', '4'] blue green hair white shirt blue pants.

@@ -1,0 +1,1 @@
+cosmic_background_10, starry_background_0, dark, purple, black, color, blue, red, green, shades.

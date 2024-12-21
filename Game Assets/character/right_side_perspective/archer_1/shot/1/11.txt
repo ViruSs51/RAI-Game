@@ -1,0 +1,8 @@
+Here is the prompt for generating an image like the one provided:
+
+Character: A young, female archer with a hooded cloak and a bow and arrow.
+Right: The archer is holding her bow to her right side.
+Perspective: The image is a close-up, focusing on the archer's face and upper body.
+Archer 1: This is the first version or iteration of the archer character.
+Shot 1: This is the first shot or attempt at creating the image.
+['11']: This codes for the specific configuration of pixels used in the image.

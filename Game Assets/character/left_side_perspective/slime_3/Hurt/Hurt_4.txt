@@ -1,0 +1,1 @@
+character left_side_perspective slime_3 Hurt ['Hurt', '4'] with brown and orange colors, pixelated, and damaged.

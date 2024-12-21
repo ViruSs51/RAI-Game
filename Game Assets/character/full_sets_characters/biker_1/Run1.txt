@@ -1,0 +1,3 @@
+To generate the image, the prompt should contain objects and their physical properties only. The prompt needs to be 8 words long.  The following prompt meets the requirements:
+
+colorful skinny biker character.

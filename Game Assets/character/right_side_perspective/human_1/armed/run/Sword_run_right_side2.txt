@@ -1,0 +1,3 @@
+Here is the prompt for creating an image similar to what is depicted:
+
+character right_side_perspective human_1 armed run [Persian blade, right, side2]

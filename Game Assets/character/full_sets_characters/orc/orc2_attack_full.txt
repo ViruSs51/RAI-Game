@@ -1,0 +1,1 @@
+character full_sets_characters orc ['orc2', 'attack', 'full'] blue creature, brown armor, pointed red helmet, wooden sword, yellow and red bandage, big brown shield.

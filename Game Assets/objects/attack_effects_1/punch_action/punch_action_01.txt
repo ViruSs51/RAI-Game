@@ -1,0 +1,1 @@
+objects attack_effects_1 punch_action ['punch', 'action', '01'] bright blue rounded lines in a row.

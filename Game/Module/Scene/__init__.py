@@ -11,8 +11,8 @@ def load_scenes(window: Surface, window_size: str|list[int]|tuple[int], player: 
     '''
 
     scenes = scene.Scenes(
-        loading_scene= loading_scene.Loading(window=window ,window_size=window_size, config=config),
         main_menu=main_menu.MainMenu(window=window,  window_size=window_size, config=config),
+        loading_scene= loading_scene.Loading(window=window ,window_size=window_size, config=config),
         spaceship_control_room=control_room.ControlRoom(window=window, window_size=window_size, config=config, player=player)
     )
 

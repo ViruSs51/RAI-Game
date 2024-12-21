@@ -1,0 +1,1 @@
+character left_side_perspective dude_2 attack ['char', 'attack', 'left']

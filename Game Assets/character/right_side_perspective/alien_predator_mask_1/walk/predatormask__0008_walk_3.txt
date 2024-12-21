@@ -1,0 +1,1 @@
+character right_side_perspective alien_predator_mask_1 walk human-like-stance 'predatormask', '0008', 'walk', '3'],

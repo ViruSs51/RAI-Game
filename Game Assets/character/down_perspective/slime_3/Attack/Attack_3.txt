@@ -1,0 +1,1 @@
+character dark_yellow_orange slime_3 Attack ['Attack', '3'] rounded gray_body sharp_white_teeth_slightly_curved sml slimy_personally_shaped_center  small grey_eyes 2_spots_on_head orange_flames  slightly_smiling tiny_white_mustache  2_wide_orange_fangs

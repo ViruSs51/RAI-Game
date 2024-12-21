@@ -1,0 +1,1 @@
+Yellow pixelated character right_side_perspective slime_3 Walk ['Walk', '7'].

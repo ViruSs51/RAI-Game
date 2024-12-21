@@ -1,0 +1,3 @@
+The image is based on an 8-word prompt that describes the character's physical appearance. The 8-word prompt is as follows:
+
+right_side_perspective alien_green_1 idle ['green', '', '0000', 'idle', '1'].

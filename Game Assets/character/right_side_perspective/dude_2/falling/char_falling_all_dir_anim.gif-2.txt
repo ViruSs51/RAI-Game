@@ -1,0 +1,1 @@
+[[char,dude_2,right_side_perspective,falling,all,'dir','anim.gif-2']][char,dude_2,right_side_perspective,falling,all,'dir','anim.gif-2']

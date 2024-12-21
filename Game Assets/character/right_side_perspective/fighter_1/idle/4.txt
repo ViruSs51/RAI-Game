@@ -1,0 +1,3 @@
+Here is a prompt for generating an image like the one you provided:
+
+"character right_side_perspective fighter_1 idle ['4']".

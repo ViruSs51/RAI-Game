@@ -1,0 +1,5 @@
+Here is an 8-word prompt that meets your requirements:
+
+character right-side archer 1 idle 2 ['4']
+
+This prompt includes the exact words you provided, in the order you specified, and does not include any additional text.

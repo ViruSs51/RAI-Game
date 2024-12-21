@@ -1,0 +1,1 @@
+A character with right-side perspective, a pushed dude-2 pushing object, ['char', 'pushing', 'right', 'anim.gif-4'].

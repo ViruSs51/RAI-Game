@@ -1,0 +1,1 @@
+character left_side_perspective slime_2 Death ['Death', '4'] bright pink shape.

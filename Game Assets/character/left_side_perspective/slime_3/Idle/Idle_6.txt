@@ -1,0 +1,1 @@
+character left_side_perspective slime_3 idle animation frame six.

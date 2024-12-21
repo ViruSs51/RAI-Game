@@ -1,0 +1,1 @@
+human_right_side_perspective human_1_['sword', 'default', '1']

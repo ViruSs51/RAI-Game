@@ -1,0 +1,3 @@
+Sword: metallic, gold, rectangular blade, two edges, pointy tip, long handle, ornate guard, worn, slightly bent, lying on the ground, side, 
+walk: brown, long, brown, brown or black hair, light skin, blue or green eyes, wide eyes, small figure, 
+at: gray sky, green or red grass or dirt, white, gray, or light blue border, long grass, weeds.

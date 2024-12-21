@@ -1,0 +1,3 @@
+Here is a prompt for an image that includes the character in the center of the image from the right side, and an archer holding a bow and arrow, shot from the side:
+
+The character right_side_perspective archer_1 shot 1 ['6'].

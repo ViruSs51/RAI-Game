@@ -16,13 +16,12 @@ class MainMenu(Scene, menu.Menu):
         setting_button_pos =  (2 * (self.height//10.8 )) + initial_button_distance + (2 * btn_distance)
         
         self.background = None
-        self.t1 = threading.Thread(target=self.loadAssets)
-        self.t1.start()
+        self.loadAssets()
         self.play_button = self.createButton(text="Play Game", position=(border_distance, initial_button_distance))
         self.settings_button = self.createButton(text="Settings", position=(border_distance, self.height//10.8 + initial_button_distance + btn_distance))
         self.exit_button = self.createButton(text="Exit", position=(border_distance, setting_button_pos))
-        
-        
+    
+
     def loadAssets(self):
         
         self.background = animated_background.AnimatedBackground(rf"Game Assets\main_assets\animated_background.gif", 255)

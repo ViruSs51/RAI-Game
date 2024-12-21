@@ -1,0 +1,3 @@
+Here is the 8-word prompt for the image:
+
+character left_side_perspective orc_2 walk_attack \[Frame 3\]

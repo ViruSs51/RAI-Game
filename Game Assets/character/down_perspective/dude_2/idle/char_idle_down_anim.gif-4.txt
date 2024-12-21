@@ -1,0 +1,1 @@
+character down_perspective dude_2 idle ['char', 'idle', 'down', 'anim.gif-4'] red-haired yellow-skinned yellow eyes black clothes dark shirt and pants .

@@ -1,0 +1,1 @@
+character down_perspective dude_2 run ['char', 'run', 'down', 'anim.gif-4'].

@@ -1,0 +1,1 @@
+character_down_perspective_human_1_attack_walk ['Sword', 'walk', 'attack', 'front1']

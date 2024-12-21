@@ -7,7 +7,7 @@ from ...Objects.Character.Player.player import Player
 
 
 class GameplayInterface(Scene):
-    not_on_scenes = ['main_menu']
+    not_on_scenes = ['main_menu', 'loading_scene']
 
     def __init__(self, window: pg.Surface, window_size: str | list[int] | tuple[int], config: dict):
         super().__init__(window, window_size, config)

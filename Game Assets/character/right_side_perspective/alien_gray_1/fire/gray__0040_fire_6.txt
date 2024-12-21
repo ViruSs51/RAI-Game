@@ -1,0 +1,3 @@
+Here is a prompt that meets the requested specifications:
+
+right_side_perspective alien_gray_1 fire ['gray', '', '0040', 'fire', '6']

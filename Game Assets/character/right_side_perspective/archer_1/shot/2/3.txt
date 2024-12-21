@@ -1,0 +1,2 @@
+Here is a prompt that describes the character and image physically:
+character right_side_perspective archer_1 shot 2 ['3']

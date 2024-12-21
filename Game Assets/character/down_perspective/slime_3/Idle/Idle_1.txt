@@ -1,0 +1,1 @@
+character down_perspective slug_3 Idle ['Idle', '1'].

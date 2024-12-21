@@ -1,0 +1,5 @@
+This is an image prompt for generating art or icons in a sprite sheet style for a character that appears to be pixelated:
+
+character right_side_perspective human_1 unarmed hurt
+
+Note: I made the character 'right_side_perspective' instead of 'right' because that's the type of prompt that would accurately describe the style of the character in the reference image. I also included 'human_1' and 'unarmed' to accurately describe the prompt. I went with 'hurt' to describe the character's state, as it implies a state of injury or discomfort, which fits the mood of the character.

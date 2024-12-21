@@ -1,0 +1,1 @@
+character left_side_perspective human_1 armed run ['Sword', 'run', 'left', 'side1'] is an 8-word prompt for generating an image like the one provided. It includes all the characters and words that describe the object physically.

@@ -1,0 +1,1 @@
+Here is the image prompt: character right-side-perspective dude2 shielded ['char', 'right', 'side', 'dude2', 'shielded', 'manga', 'hand', 'raised']

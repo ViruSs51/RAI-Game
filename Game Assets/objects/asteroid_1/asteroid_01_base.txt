@@ -1,0 +1,1 @@
+objects asteroid_1 ['asteroid', '01', 'base'] generate an image of an asteroid with the base colors of red, orange, yellow, and brown and irregular shape with some smooth areas and many irregular shapes.

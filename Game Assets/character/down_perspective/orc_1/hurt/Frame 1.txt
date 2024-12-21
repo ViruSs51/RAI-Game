@@ -1,0 +1,1 @@
+character down_perspective orc_1 hurt ['Frame 1'] green skin, bald, pointed teeth, red eyes, large nose, brown eyes, grey clothes, sharp teeth.

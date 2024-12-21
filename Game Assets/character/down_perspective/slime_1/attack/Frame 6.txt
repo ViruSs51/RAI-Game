@@ -1,0 +1,1 @@
+object down_perspective green blue blob ['Frame 6'].

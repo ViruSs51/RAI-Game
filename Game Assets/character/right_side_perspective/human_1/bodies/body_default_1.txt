@@ -1,0 +1,1 @@
+character right_side_perspective human_1 bodies ['body', 'default', '1'] Dark brown skin tone, long brown hair, simple cloth dress, one foot in front of the other.

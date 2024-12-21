@@ -1,0 +1,1 @@
+human_1 armed ['Sword', 'front4'] down_perspective character.

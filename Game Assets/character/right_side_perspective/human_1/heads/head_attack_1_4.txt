@@ -1,0 +1,1 @@
+Character right_side_perspective human_1 heads ['head', 'attack', '1', '4'].

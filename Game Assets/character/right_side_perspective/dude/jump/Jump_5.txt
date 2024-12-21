@@ -1,0 +1,7 @@
+Here is a prompt that contains all the necessary details:
+
+character: 
+- 8 words
+- describe physically only
+- includes: right_side_perspective dude jump ['Jump', '5']
+- does not include: anything other than words

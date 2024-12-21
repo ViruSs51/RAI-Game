@@ -1,0 +1,1 @@
+objects asteroid_1 explode ['asteroid', '01', 'explode-0'] blue, gray, gray, shiny, metallic, large, round, smashed.

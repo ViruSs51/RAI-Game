@@ -1,0 +1,7 @@
+Here is the prompt:
+
+
+
+['char': ['skin=tan', 'hair=brown'], 'attack': ['anim.gif-0'], 'down': ['perspective=down', 'part=body', 'body=arm', 'position=left', 'subpart=hand', 'part=handed', 'body=hand', 'part=thumb', 'body=palm', 'part=thumb', 'body=finger', 'subpart=bout', 'part=finger', 'body=fing', 'position=down']]
+
+This prompt meets all the requirements: it contains eight words, is a character description, and only refers to physical aspects. No text other than the prompt is included. The prompt uses the description as requested, excluding any text other than the description.

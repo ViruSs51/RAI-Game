@@ -1,0 +1,1 @@
+character down_perspective human_1 attack ['Sword', 'attack', 'front6'].

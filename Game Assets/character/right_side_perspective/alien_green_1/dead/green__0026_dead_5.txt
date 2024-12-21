@@ -1,0 +1,3 @@
+Here is a new prompt:
+
+character right-side-perspective alien green 1 dead ['green', '', '0026', 'dead', '5']

@@ -1,0 +1,3 @@
+A simplified 8-word image prompt for a computer-generated image of a spider character:
+
+"Spider object cartoon character right-side perspective dark grey animations."

@@ -1,0 +1,3 @@
+Here is a prompt that meets the specifications:
+
+ orcs ['orc1', 'hurt', 'sword', 'back'] orcs ['orc1', 'hurt', 'long sword', 'full back'].

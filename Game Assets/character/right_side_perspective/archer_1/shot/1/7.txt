@@ -1,0 +1,3 @@
+Here is a prompt for generating an image like the one described:
+
+A right-side perspective of an archer 1 taking shot 1 ['7'].

@@ -1,0 +1,1 @@
+right_side_perspective alien_dark_gray_1 dead ['darkgray', '', '0025', 'dead', '4']

@@ -1,0 +1,5 @@
+character: small, chubby, yellow, square, with red hair
+down_perspective: from head to mid-chest
+dude_2: wearing light-gray shirt and dark-red jacket with big and outstretched arms
+run: character is small and trying to run with all limbs
+anim.gif-5: character is on gif5.

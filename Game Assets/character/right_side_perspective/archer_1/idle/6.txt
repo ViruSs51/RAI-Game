@@ -1,0 +1,1 @@
+character right_side_perspective archer_1 idle ['6',skin,white,eye,blue,hair, gray,head scarf,  red,colour,weapon,bow,brown,brown horn,arrow,fac,expression,bowed,shoulders,stomach,worried]

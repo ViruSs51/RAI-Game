@@ -1,0 +1,3 @@
+Here is a prompt that matches the specifications:
+
+character right_side_perspective alien_red_1 idle ['red', '', '0001', 'idle', '2']

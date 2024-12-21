@@ -1,0 +1,3 @@
+Here is the 8 word prompt for generating an image like the one described:
+
+character right_side_perspective archer_1 jump ['4']

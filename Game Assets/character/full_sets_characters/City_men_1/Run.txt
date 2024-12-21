@@ -1,0 +1,3 @@
+The following prompt should be used to generate an image similar to the one provided:
+
+male character full body colored, upper body clothes, head, arms, legs, no background

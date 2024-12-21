@@ -1,0 +1,1 @@
+character left side perspective dude 2 in idle ['char', 'idle', 'left', 'anim.gif-4']

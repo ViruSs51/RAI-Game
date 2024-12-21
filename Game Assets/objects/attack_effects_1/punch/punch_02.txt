@@ -1,0 +1,1 @@
+objects attack_effects_1 punch bright blue spiky sharp radiates flash

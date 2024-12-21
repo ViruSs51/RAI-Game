@@ -1,0 +1,3 @@
+Here is a custom prompt:
+
+character right_side_perspective alien_dark_gray_1 fire [[dark gray, blank, 0041, fire, 7]].

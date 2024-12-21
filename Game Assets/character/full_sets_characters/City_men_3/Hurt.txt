@@ -1,0 +1,13 @@
+Here's a modified image of 3 human characters from a pixel artwork video game with the description of an 'Hurt' style character full_sets_characters, City_men_3. 
+
+- 3 Male iconic human characters 
+- Wearing 6 different pixel animations 
+- Different sizes and body shapes 
+- Different arms and hands styles 
+- Different face expressions 
+- Different eyes colours 
+- Different hair colours 
+- Different clothes colours. 
+- Different colour patterns 
+
+Prompts: generate pixel art image of 3 iconic human characters full_sets_characters City_men_3 hugging, touching each other, interacting.
