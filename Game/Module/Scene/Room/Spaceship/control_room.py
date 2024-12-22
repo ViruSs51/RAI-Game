@@ -2,6 +2,7 @@ import pygame as pg
 from copy import deepcopy
 from ...Room.room import Room
 from ....Objects.Character.Player.player import Player
+from ....Objects.Generator.Monster.monster_generator import MonsterGenerator
 from ....Objects.Character.Monster.monster import Monster
 
 
@@ -19,14 +20,16 @@ class ControlRoom(Room):
         )
         self.initFloor()
 
+        self.monster_generator = MonsterGenerator(
+            window=window,
+            images_url=config["characters"]["monsters"],
+            chunk_dimension=config['game']['chunk_dimension'],
+            monster_counts=self.max_monster_in_chunk
+        )
         self.addObject(
-            Monster(
-                window=window,
-                size=config["characters"]["player"]["size"],
-                position=[300, 555],
-                images_url=config["characters"]["monsters"]["samples1"],
-            ),
-            self._player
+            self.monster_generator.monsters + [
+                self._player
+            ]
         )
 
     def initFloor(self):
@@ -50,4 +53,9 @@ class ControlRoom(Room):
 
         await self.movementPlayer()
 
-        return await super().loader()
+        returned =  await super().loader()
+
+        if self.monsters_in_chunck < self.max_monster_in_chunk:
+            self.objects = self.monster_generator.generateMonsters(monster_counts=self.max_monster_in_chunk-self.monsters_in_chunck) + self.objects
+
+        return returned

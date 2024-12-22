@@ -31,6 +31,7 @@ def init_player(window: Surface, config: dict) -> Player:
         size=config["characters"]["player"]["size"],
         position=config["characters"]["player"]["position"],
         images_url=config["characters"]["player"]["samples"],
+        max_life=config['characters']['player']['max_life']
     )
 
     return player
