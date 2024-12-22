@@ -19,7 +19,7 @@ class GameplayInterface(Scene):
 
         self.addObject(
             # Pause button
-            button.Button(
+            [button.Button(
                 self._window,
                 size=[70, 70],
                 position=[10, 10],
@@ -28,7 +28,7 @@ class GameplayInterface(Scene):
                     "Game Assets/objects/ui_1/button-pause.png",
                     "Game Assets/objects/ui_1/button-pause.png",
                 ],
-            )
+            )]
         )
 
     async def loader(self):

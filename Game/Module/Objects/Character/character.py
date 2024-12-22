@@ -11,6 +11,8 @@ class Character(Object):
         size: list[int],
         position: list[int],
         images_url: list[str],
+        ctype: str,
+        max_life: int=10
     ):
         self.character: pg.Rect
         self.perspective: int = 0
@@ -18,11 +20,13 @@ class Character(Object):
         self.main_speed = 0.1
         self.speed = self.main_speed
         self.running_speed = 0.2
+        self.max_life = max_life
 
         super().__init__(
             window, size, position, colors=None, images_url=images_url, border_radius=-1
         )
 
+        self.ctype = ctype
         self.press_w = 0
         self.press_s = 0
         self.press_d = 0

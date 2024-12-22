@@ -7,10 +7,12 @@ class Object:
         window: pg.Surface,
         size: list[int],
         position: list[int],
-        colors: list[list[int] | str],
+        colors: list[list[int] | str]=None,
         images_url: list[str] = None,
         border_radius: int = -1,
     ):
+        self.ctype = None
+        self.in_chunk = False
         self.collider = False
         self.start = True
         self.fill_index = 0
@@ -33,17 +35,26 @@ class Object:
 
     async def draw(self, objects: list['Object']=None):
         if objects:
+            #Check if two or more object collide
             self.can_move_to_up = True
             self.can_move_to_right = True
             self.can_move_to_down = True
             self.can_move_to_left = True
 
             for o in objects:
-                if o != self and o.collider and self.collider and -200 < o.pos[0] < self.window_size[0]+200 and -200 < o.pos[1] < self.window_size[1]+200:
-                    if self.can_move_to_up: self.can_move_to_up = o.pos[1]+o.size[1]-10 < self.pos[1] or o.pos[1] > self.pos[1] or o.pos[0]+o.size[0] < self.pos[0]+20 or o.pos[0] > self.pos[0]+self.size[0]-20
-                    if self.can_move_to_right: self.can_move_to_right = o.pos[0]+10 > self.pos[0]+self.size[0] or o.pos[0] < self.pos[0] or o.pos[1]+o.size[1] < self.pos[1]+20 or o.pos[1] > self.pos[1]+self.size[1]-20
-                    if self.can_move_to_down: self.can_move_to_down = o.pos[1]+10 > self.pos[1]+self.size[1] or o.pos[1] < self.pos[1] or o.pos[0]+o.size[0] < self.pos[0]+20 or o.pos[0] > self.pos[0]+self.size[0]-20
-                    if self.can_move_to_left: self.can_move_to_left = o.pos[0]+o.size[0]-10 < self.pos[0] or o.pos[0] > self.pos[0] or o.pos[1]+o.size[1] < self.pos[1]+20 or o.pos[1] > self.pos[1]+self.size[1]-20
+                if o != self and o.collider and self.collider:
+                    if -200 < o.pos[0] < self.window_size[0]+200 and -200 < o.pos[1] < self.window_size[1]+200:
+                        if self.can_move_to_up: self.can_move_to_up = o.pos[1]+o.size[1]-10 < self.pos[1] or o.pos[1] > self.pos[1] or o.pos[0]+o.size[0] < self.pos[0]+20 or o.pos[0] > self.pos[0]+self.size[0]-20
+                        if self.can_move_to_right: self.can_move_to_right = o.pos[0]+10 > self.pos[0]+self.size[0] or o.pos[0] < self.pos[0] or o.pos[1]+o.size[1] < self.pos[1]+20 or o.pos[1] > self.pos[1]+self.size[1]-20
+                        if self.can_move_to_down: self.can_move_to_down = o.pos[1]+10 > self.pos[1]+self.size[1] or o.pos[1] < self.pos[1] or o.pos[0]+o.size[0] < self.pos[0]+20 or o.pos[0] > self.pos[0]+self.size[0]-20
+                        if self.can_move_to_left: self.can_move_to_left = o.pos[0]+o.size[0]-10 < self.pos[0] or o.pos[0] > self.pos[0] or o.pos[1]+o.size[1] < self.pos[1]+20 or o.pos[1] > self.pos[1]+self.size[1]-20
+                    
+                    if self.ctype != 'player':
+                        if not self.can_move_to_up: self.pos[1] += 0.1
+                        if not self.can_move_to_right: self.pos[0] -= 0.1
+                        if not self.can_move_to_down: self.pos[1] -= 0.1
+                        if not self.can_move_to_left: self.pos[0] += 0.1
+                
 
     async def setImages(self, new_images: list = None) -> list:
         if not self.images_url:
