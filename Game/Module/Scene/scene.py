@@ -37,6 +37,8 @@ class Scene:
                 self.returned.append(await o.draw(objects=self.objects))
 
             else:
-                await o.processing()
+                try:
+                    await o.processing()
+                except: pass
 
         return self.swap_scene
