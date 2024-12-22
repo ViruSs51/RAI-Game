@@ -2,6 +2,7 @@ import pygame as pg
 from copy import deepcopy
 from ...Room.room import Room
 from ....Objects.Character.Player.player import Player
+from ....Objects.Character.Monster.monster import Monster
 
 
 class ControlRoom(Room):
@@ -18,7 +19,15 @@ class ControlRoom(Room):
         )
         self.initFloor()
 
-        self.addObject(self._player)
+        self.addObject(
+            Monster(
+                window=window,
+                size=config["characters"]["player"]["size"],
+                position=[300, 555],
+                images_url=config["characters"]["monsters"]["samples1"],
+            ),
+            self._player
+        )
 
     def initFloor(self):
         self.floor_image = "Game Assets/tiles/space_station_1/floor/floor_50.png"
@@ -38,26 +47,7 @@ class ControlRoom(Room):
 
     async def loader(self):
         self._window.blit(self.floor_surface, self.floor_pos)
+
         await self.movementPlayer()
 
         return await super().loader()
-    
-    async def movementPlayer(self):
-        if self._player.verifyFloorUp() or self._player.verifyFloorRight() or self._player.verifyFloorDown() or self._player.verifyFloorLeft():
-            if self._player.press_w:
-                self.floor_pos[1] += self._player.speed
-
-            elif self._player.press_s:
-                self.floor_pos[1] -= self._player.speed
-
-            if self._player.press_d:
-                self.floor_pos[0] -= self._player.speed
-
-            elif self._player.press_a:
-                self.floor_pos[0] += self._player.speed
-
-            if self.floor_pos[1] <= self.floor_initial_pos[1] - self.floor_size[1] or self.floor_pos[1] >= self.floor_initial_pos[1] + self.floor_size[1]:
-                self.floor_pos[1] = self.floor_initial_pos[1]
-
-            if self.floor_pos[0] <= self.floor_initial_pos[0] - self.floor_size[0] or self.floor_pos[0] >= self.floor_initial_pos[0] + self.floor_size[0]:
-                self.floor_pos[0] = self.floor_initial_pos[0]

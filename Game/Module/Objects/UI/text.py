@@ -43,7 +43,7 @@ class Text(Object):
         )
         self.text_rect = self.text_render.get_rect()
 
-    async def draw(self):
+    async def draw(self, objects: list[Object]=None):
         self.window.blit(self.text_render, self.position)
 
     async def updateFill(self, fill_index: int):

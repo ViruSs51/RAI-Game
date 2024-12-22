@@ -48,7 +48,7 @@ class Button(Object):
             self.pos[1] + self.size[1] / 2 - self.text.text_rect.height / 2,
         )
 
-    async def draw(self):
+    async def draw(self, objects: list[Object]=None):
         if self.start:
             self.images = await self.setImages()
         await super().draw()

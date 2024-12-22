@@ -33,6 +33,10 @@ class Scene:
 
         self.returned = []
         for o in self.objects:
-            self.returned.append(await o.draw())
+            if -200 < o.pos[0] < self._w_size[0]+200 and -200 < o.pos[1] < self._w_size[1]+200:
+                self.returned.append(await o.draw(objects=self.objects))
+
+            else:
+                await o.processing()
 
         return self.swap_scene
