@@ -2,6 +2,7 @@ import pygame as pg
 
 from ..character import Character
 from ...Controller.controller import Controller
+from ...objects import Object
 
 
 class Player(Character):
@@ -14,52 +15,31 @@ class Player(Character):
     ):
         super().__init__(window, size, position, images_url)
 
+        self.collider = True
+        self.player_border_distance = (self.window_size[0] / 4, self.window_size[1] / 4)
+
+        self.verifyObjectUp = lambda: False if self.player_border_distance[1] + self.speed <= self.pos[1] else True
+        self.verifyObjectRight = lambda: False if self.pos[0] <= self.window_size[0] - self.player_border_distance[0] - self.speed else True
+        self.verifyObjectDown = lambda: False if self.pos[1] <= self.window_size[1] - self.player_border_distance[1] - self.speed else True
+        self.verifyObjectLeft = lambda: False if self.player_border_distance[0] + self.speed <= self.pos[0] else True
+
+        self.verifyUp = lambda: True if self.player_border_distance[1] <= self.pos[1] else False
+        self.verifyRight = lambda: True if self.pos[0] <= self.window_size[0] - self.player_border_distance[0] else False
+        self.verifyDown = lambda: True if self.pos[1] <= self.window_size[1] - self.player_border_distance[1] else False
+        self.verifyLeft = lambda: True if self.player_border_distance[0] <= self.pos[0] else False
+
+        self.toUp = lambda: self.pos[1] - self.speed if self.verifyUp() else self.player_border_distance[1] + self.speed
+        self.toRight = lambda: self.pos[0] + self.speed if self.verifyRight() else self.window_size[0] - self.player_border_distance[0] - self.speed
+        self.toDown = lambda: self.pos[1] + self.speed if self.verifyDown() else self.window_size[1] - self.player_border_distance[1] - self.speed
+        self.toLeft = lambda: self.pos[0] - self.speed if self.verifyLeft() else self.player_border_distance[0] + self.speed
+
         self.main_speed = 0.35
         self.speed = self.main_speed
         self.running_speed = 0.55
 
-        self.controller = Controller()
+        self.controller = Controller(self.window)
 
-    async def draw(self):
-        await super().draw()
-
+    async def draw(self, objects: list[Object]=None):
         self.character = await self.Animated()
-        await self.control()
-
-    async def control(self):
-        self.press_w = await self.controller.getPressed("w")
-        self.press_s = await self.controller.getPressed("s")
-        self.press_d = await self.controller.getPressed("d")
-        self.press_a = await self.controller.getPressed("a")
-        self.press_shift = await self.controller.getPressed("shift")
-        self.not_action = set((self.press_w, self.press_s, self.press_d, self.press_a)) == {0}
-
-        if self.press_shift and not self.not_action:
-            self.type_animation = 2
-            self.speed = self.running_speed
-
-        else:
-            self.speed = self.main_speed
-
-        if self.press_w:
-            self.pos[1] = self.toUp()
-            self.perspective = 0
-            self.type_animation = 1
-
-        elif self.press_s:
-            self.pos[1] = self.toDown()
-            self.perspective = 2
-            self.type_animation = 1
-
-        if self.press_d:
-            self.pos[0] = self.toRight()
-            self.perspective = 1
-            self.type_animation = 1
-
-        elif self.press_a:
-            self.pos[0] = self.toLeft()
-            self.perspective = 3
-            self.type_animation = 1
-
-        if self.not_action:
-            self.type_animation = 0
+        await self.processing(True)
+        await super().draw(objects=objects)

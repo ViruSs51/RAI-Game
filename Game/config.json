@@ -64,6 +64,9 @@
                     "Game Assets/character/left_side_perspective/human_1/unarmed/idle/Unarmed_idle_side_left11.png",
                     "Game Assets/character/left_side_perspective/human_1/unarmed/idle/Unarmed_idle_side_left12.png"
                 ],
+
+
+
                 [
                     "Game Assets/character/up_perspective/human_1/unarmed/walk/Unarmed_walk_back1.png",
                     "Game Assets/character/up_perspective/human_1/unarmed/walk/Unarmed_walk_back1.png",
@@ -78,9 +81,6 @@
                     "Game Assets/character/up_perspective/human_1/unarmed/walk/Unarmed_walk_back6.png",
                     "Game Assets/character/up_perspective/human_1/unarmed/walk/Unarmed_walk_back6.png"
                 ],
-
-
-
                 [
                     "Game Assets/character/right_side_perspective/human_1/unarmed/walk/Unarmed_walk_right_side1.png",
                     "Game Assets/character/right_side_perspective/human_1/unarmed/walk/Unarmed_walk_right_side1.png",
@@ -181,6 +181,185 @@
                     "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left7.png",
                     "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left8.png",
                     "Game Assets/character/left_side_perspective/human_1/unarmed/run/Unarmed_run_side_left8.png"
+                ]
+            ] 
+        },
+        "monsters": {
+            "size": [37, 33],
+            "samples1": [
+                [
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 4.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 4.png",
+                    "Game Assets/character/up_perspective/orc_1/idle/Frame 4.png"
+                ],
+                [
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 4.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 4.png",
+                    "Game Assets/character/right_side_perspective/orc_1/idle/Frame 4.png"
+                ],
+                [
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 4.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 4.png",
+                    "Game Assets/character/down_perspective/orc_1/idle/Frame 4.png"
+                ],
+                [
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 1.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 2.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 3.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 4.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 4.png",
+                    "Game Assets/character/left_side_perspective/orc_1/idle/Frame 4.png"
+                ],
+
+
+
+                [
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 1.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 1.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 2.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 2.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 3.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 3.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 4.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 4.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 5.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 5.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 6.png",
+                    "Game Assets/character/up_perspective/orc_1/walk/Frame 6.png"
+                ],
+                [
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 1.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 1.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 2.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 2.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 3.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 3.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 4.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 4.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 5.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 5.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 6.png",
+                    "Game Assets/character/right_side_perspective/orc_1/walk/Frame 6.png"
+                ],
+                [
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 1.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 1.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 2.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 2.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 3.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 3.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 4.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 4.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 5.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 5.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 6.png",
+                    "Game Assets/character/down_perspective/orc_1/walk/Frame 6.png"
+                ],
+                [
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 1.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 1.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 2.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 2.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 3.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 3.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 4.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 4.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 5.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 5.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 6.png",
+                    "Game Assets/character/left_side_perspective/orc_1/walk/Frame 6.png"
+                ],
+
+
+
+                [
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 1.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 1.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 2.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 2.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 3.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 4.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 5.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 6.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 7.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 7.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 8.png",
+                    "Game Assets/character/up_perspective/orc_1/run/Frame 8.png"
+                ],
+                [
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 1.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 1.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 2.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 2.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 3.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 4.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 5.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 6.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 7.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 7.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 8.png",
+                    "Game Assets/character/right_side_perspective/orc_1/run/Frame 8.png"
+                ],
+                [
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 1.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 1.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 2.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 2.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 3.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 4.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 5.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 6.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 7.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 7.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 8.png",
+                    "Game Assets/character/down_perspective/orc_1/run/Frame 8.png"
+                ],
+                [
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 1.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 1.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 2.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 2.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 3.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 4.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 5.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 6.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 7.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 7.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 8.png",
+                    "Game Assets/character/left_side_perspective/orc_1/run/Frame 8.png"
                 ]
             ] 
         }

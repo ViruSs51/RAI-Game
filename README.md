@@ -4,7 +4,7 @@
 RAI-Game este un joc construit în Python utilizând biblioteca Pygame. Pentru a îmbunătăți performanța și a optimiza gestionarea resurselor, proiectul utilizează programarea asincronă.
 
 ## Structura Proiectului
-### [main.py](Game/main.py)
+### [main.py](main.py)
 Fișierul principal al proiectului. Acesta integrează toate modulele și gestionează logica globală a jocului.
 
 - **Clasa Game**

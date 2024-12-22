@@ -6,10 +6,6 @@ import asyncio
 
 
 class Animation(Object):
-    current_delay = 0
-    max_delay = 0
-    images = []
-
     def __init__(
         self,
         window: pg.Surface,
@@ -20,12 +16,16 @@ class Animation(Object):
         delay: int = 100,
     ):
         self.all_images = images_url
+        self.current_delay = 0
+        self.max_delay = 0
+        self.images = []
+        
         super().__init__(window, size, position, colors, images_url[0], -1)
 
         self.d = delay
         self.max_dalay = time() + self.d
 
-    async def draw(self, perspective: int = 0):
+    async def draw(self, perspective: int = 0, objects: list[Object]=None):
         if self.start:
             for i, pi in enumerate(self.all_images):
                 self.images.append(

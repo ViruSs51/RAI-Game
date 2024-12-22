@@ -14,7 +14,7 @@ class Frame(Object):
     ):
         super().__init__(window, size, position, colors, images_url, border_radius)
 
-    async def draw(self):
+    async def draw(self, objects: list[Object]=None):
         if self.start:
             await self.setImages()
             
