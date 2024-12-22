@@ -1,0 +1,1 @@
+character full_sets_characters owlet_monster ['Owlet', 'Animated, Cute, Large Eyes, Small Body', 'Monster', 'Ocular', 'Death', 'No Arms or Legs', '8'].

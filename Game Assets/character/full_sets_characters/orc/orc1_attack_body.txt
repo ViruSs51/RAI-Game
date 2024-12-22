@@ -1,0 +1,1 @@
+character full_sets_characters orc ['orc1', 'attack', 'body', 'green', 'pixelated', 'cartoon', 'simplified', 'fantasy'].

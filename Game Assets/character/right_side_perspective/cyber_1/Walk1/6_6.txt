@@ -1,0 +1,5 @@
+Let's create a new prompt by combining the original words with the provided keywords. Here is the revised prompt:
+
+A character with green hair, wearing a cyberpunk jumpsuit, walking to the right, standing at a 6x6 scale.
+
+This prompt includes the original words, the desired keywords, and specific physical details about the character.

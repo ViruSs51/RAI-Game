@@ -1,0 +1,1 @@
+Here is a new prompt that only contains the following words: character, right_side_perspective, human_1, attack, walk, 'Sword', 'walk', 'attack', 'right', 'side4'. This prompt is 8 words long and only includes physical descriptions of the object. The prompt is: character, right_side_perspective, human_1, attack, walk, 'Sword', 'walk', 'attack', 'right', 'side4'.

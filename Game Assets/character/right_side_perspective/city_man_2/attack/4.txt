@@ -1,0 +1,1 @@
+Here's a prompt that a text-to-image model may generate an image like the one you provided, using an 8-word prompt "The virtual pixelated icon with a blue Shirt"

@@ -1,0 +1,1 @@
+animal right_side_perspective alien_green_1 walk ['green', '', '0008', 'walk', '3']

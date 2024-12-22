@@ -1,0 +1,1 @@
+character full_sets_characters cyborg_1['Run1']. blue metal arms,white robot body,green detailed hat,silver chin.

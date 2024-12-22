@@ -1,0 +1,3 @@
+human_head round_eyes red_mouth thin_lips short_hair black_brows happy_smile red_nose small_nose orange_tongue mouth_open slightly_open_finger small_hand left_hand small_arm arm_bend red_bodybody_lower_body short_clothes short_sleeves red_sword left_hand arm_angled back right_hand head_blowback head_blowback_speed_low head_blowback_force_low sword_speed_med sword_speed_low sword_force_low sword_force_med
+
+This prompt includes every detail about the character and sword. You can modify it for anything you need to make or generate.

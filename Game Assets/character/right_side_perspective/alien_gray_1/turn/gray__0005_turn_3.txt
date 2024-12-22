@@ -1,0 +1,3 @@
+The prompt for generating an image to describe the character would be:
+
+character right_side_perspective alien_gray_1 turn ['gray', '', '0005', 'turn', '3'].

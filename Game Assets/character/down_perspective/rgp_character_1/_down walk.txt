@@ -1,0 +1,1 @@
+character down_perspective rgp_character_1 ['', 'down walk'].

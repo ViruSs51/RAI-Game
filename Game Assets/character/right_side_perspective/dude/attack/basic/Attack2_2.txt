@@ -1,0 +1,48 @@
+Here is the prompt for the character in the provided image:
+
+## Prompt Description
+
+1.  **Character Description**: A right-side perspective of a blue, humanoid character with large eyes, looking to the left.
+2.  **Character Arms**: The character is holding two weapons pointing away from its body.
+3.  **Weapon Description**: The weapons have red hoods with jagged edges.
+4.  **Character Body**: The character body is covered in a blue skin with black accents around eye holes, nose holes, and on head.
+5.  **Clothes Description**: The character is wearing a blue coat with a red shawl around its neck. 
+
+## Character Statistics
+
+1. **Name:** "Honest"  
+2. **Hunger:** -  
+3. **Health:** 10
+4. **Energy:** 10
+
+**Character Abilities:**
+
+1.   Name: "Ringing" 
+    - Damage: 2
+    -  Description: the character sends a shockwave to a random location between itself and the target.
+    - Success Chance: 60%
+    - Range:  5
+2.   Name: "Super Strength" 
+    - Damage: 18
+    -  Description: the character throws a projectile into all enemies. 
+    - Success Chance: 0%
+    - Range: 5
+
+**Characters:**
+
+*   *Name*-> 'Name'
+*   *Side* -> right
+*   *Power* -> "Power"
+*   *[Power]::Name* ->'['Attack1', '1']'
+*   *[Power]::Damage* -> 2
+*   *[Power]::Range* -> 5 
+
+## Summary
+
+The prompt requests an image with the following details:
+
+*   A character with large eyes.
+*   A right-side perspective.
+*   A blue body.
+*   A red shawl around the neck.
+*   A character holding two weapons with sharp red hoods.

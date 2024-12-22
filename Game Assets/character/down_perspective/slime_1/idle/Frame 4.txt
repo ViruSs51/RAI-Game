@@ -1,0 +1,1 @@
+character down_perspective slime_1 idle ['Frame 4']. Keep it 8 words long.

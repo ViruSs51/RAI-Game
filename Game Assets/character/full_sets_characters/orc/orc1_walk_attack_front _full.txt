@@ -1,0 +1,3 @@
+Here is the promt for generating an image like this:
+
+Orc character images including orc1, walk, attack, front, and full.

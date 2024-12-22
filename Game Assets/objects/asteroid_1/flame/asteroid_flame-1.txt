@@ -1,0 +1,1 @@
+objects asteroid_1 flame ['asteroid', 'flame-1']. metal sphere, orange-yellow fire ['metal', 'shape', 'sphere', 'orange', 'yellow', 'fire', 'flame']

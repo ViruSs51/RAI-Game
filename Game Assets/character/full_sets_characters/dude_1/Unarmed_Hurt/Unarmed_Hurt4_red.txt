@@ -1,0 +1,1 @@
+character full_sets_characters dude_1 Unarmed_Hurt ['Unarmed', 'Hurt4', 'red', 'red'] red icons pixels.

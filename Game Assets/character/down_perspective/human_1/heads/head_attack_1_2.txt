@@ -1,0 +1,1 @@
+character down_perspective human_1 heads ['Tan shiny face with blue eyes', 'dull attack symbol', 'brown eyebrows', 'curved brown hair', 'black eyelashes', 'round yellow nose', 'thin brown chin', 'pupils']

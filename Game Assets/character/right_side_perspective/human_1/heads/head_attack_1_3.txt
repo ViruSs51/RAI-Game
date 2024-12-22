@@ -1,0 +1,1 @@
+character right_side_perspective human_1 heads ['head', 'attack', '1', '3', 'human-like', 'facial', 'expression', 'wide-eye']

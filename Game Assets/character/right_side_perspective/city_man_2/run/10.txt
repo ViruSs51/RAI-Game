@@ -1,0 +1,5 @@
+Here is a possible prompt for generating an image like the one you described:
+
+"Male character running from right side in city outfit with backpack"
+
+This prompt includes the words "character", "right_side_perspective", "city_man_2", and "run ['10']", as requested.

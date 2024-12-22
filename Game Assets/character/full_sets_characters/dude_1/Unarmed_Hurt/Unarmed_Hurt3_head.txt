@@ -1,0 +1,1 @@
+character full_sets_characters dude_1 Unarmed_Hurt ['Unarmed', 'Hurt3', 'head'] human skull features, bone structure, rounded shape, light brown color

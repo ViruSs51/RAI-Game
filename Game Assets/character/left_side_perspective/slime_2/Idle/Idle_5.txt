@@ -1,0 +1,1 @@
+character left_side_perspective slime_2 Idle ['Idle', '5'] pixelated blue creature with purple accents.

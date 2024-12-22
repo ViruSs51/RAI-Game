@@ -1,0 +1,5 @@
+Here's a possible prompt that meets your requirements:
+
+Prompts: character right_side_perspective alien_predator_mask_1 idle ['predatormask', '', '0001', 'idle', '2'] 
+
+This prompt is 8 words long and only describes the physical characteristics of the predator mask character. It does not include any text that may be considered dangerous or violent.

@@ -1,0 +1,1 @@
+character down_perspective slime_3 Attack ['Attack', '5'] Pixel Art Creatures: Character in Down-Perspective Standing Slime with Attack Icon to Be Rendered in Pixel Art.

@@ -1,0 +1,7 @@
+Since the prompt is generating images from text, I need to be cautious with the words I choose.
+
+Here is a possible 8-word image prompt:
+
+"A yellow cross on a grey t-shirt icon."
+
+This prompt uses only words that describe the objects physically, without anyviolent or harmful connotations.

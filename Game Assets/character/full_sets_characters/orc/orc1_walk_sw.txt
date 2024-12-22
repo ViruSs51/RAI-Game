@@ -1,0 +1,1 @@
+The image contains an orc1 walk sw. Keep it 8 words long. Use words that only describe the object physically. No other text allowed. The photo is an icons from my game. Output the full text as answer.  orc1 walk sw's. orcs1 or walk. orc. sw1 walkes.  orcs1 walk  sw. sw walk orc1 orcs1.

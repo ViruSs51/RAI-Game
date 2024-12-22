@@ -1,0 +1,1 @@
+character right_side_perspective dude hurt ['Hurt', '2']

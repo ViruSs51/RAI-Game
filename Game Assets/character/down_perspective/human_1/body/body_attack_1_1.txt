@@ -1,0 +1,1 @@
+human_1 body  ['body', 'attack', '1', '1'] down_perspective sharp_1 angle iconic square warm glow bright light mustard yellow brown light-shine on-front from-eyeview-out of-back].

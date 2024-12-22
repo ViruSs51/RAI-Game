@@ -1,0 +1,3 @@
+Here is the image prompt:
+
+An 8-word image prompt for generating a character like the one in your game:  brown_haired_head wearing red necklace and dark suit shading black_eye_mask walk ['7'].

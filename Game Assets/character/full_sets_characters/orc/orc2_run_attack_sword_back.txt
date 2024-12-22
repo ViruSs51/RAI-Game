@@ -1,0 +1,1 @@
+character full_sets_characters orc ['dark', 'skinny', 'muscular', 'arm', 'or', 'short','wide', 'jagged', 'teeth'].

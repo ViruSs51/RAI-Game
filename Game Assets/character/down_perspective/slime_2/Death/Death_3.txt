@@ -1,0 +1,1 @@
+character down_perspective slime_2 Death ['Death', '3'] prompt: eerie pixelated skull with glowing pink eyes, dark mouth, and spiky hair.

@@ -1,0 +1,1 @@
+object_['7'] right_side_['1'] archer_['2'] be_['3'] female['4'] brown-haired blue-eyed dressed['5'] armor['6'] hooded['7'] bow['8'] left-hand['9'] in-belt['10'] quiver['11'] arrows['12'] longbow['13'] holding['14'] archer['15'] aimed['16'] arrow['17'] straight['18'] downwards'['19']

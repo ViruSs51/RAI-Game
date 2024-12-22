@@ -1,0 +1,3 @@
+Here is a prompt for generating an image like this:
+
+"An orc with green body and red cloak."

@@ -1,0 +1,1 @@
+character right_side_perspective alien_gray_1 walk ['grayscale', 'stiff', 'robotic', 'glaring', 'wide', 'blue', 'pupil-less', 'eyes'].

@@ -1,0 +1,1 @@
+character left_side_perspective phantom_1 run_attack ['phantom', 'run', 'anim', 'left.gif-5'].

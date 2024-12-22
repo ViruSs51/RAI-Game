@@ -1,0 +1,1 @@
+A tall stickman_1 stick-man-scary entity with a wide, empty spherical head facing in a random direction, the body stretching down to its feet which are at the bottom of the image and extending out wide to the sides, while most of the body is empty space, due to a lack of character full_sets_characters graphical details.

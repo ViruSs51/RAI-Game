@@ -1,0 +1,1 @@
+[Character left side perspective slime 2 Walk] ['Walk', '5']

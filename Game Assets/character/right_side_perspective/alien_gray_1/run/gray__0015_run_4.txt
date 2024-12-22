@@ -1,0 +1,1 @@
+character right_side_perspective alien_gray_1 ['gray', '', '0015', 'run', '4'], small_head_low_poly_alien_body_gray_hair_small_eyes_single_green_2.

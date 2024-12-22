@@ -1,0 +1,1 @@
+Here is the image prompt: Character right-side-perspective alien dark gray 1 walk ['darkgray', '', '0006', 'walk', '1'].

@@ -1,0 +1,1 @@
+character right_side_perspective alien_dark_gray_1 walk ['darkgray', 'character', '0011', 'walk', '6']

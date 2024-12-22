@@ -1,0 +1,1 @@
+character down_perspective sword orc_3 run_attack ['Frame 7'].

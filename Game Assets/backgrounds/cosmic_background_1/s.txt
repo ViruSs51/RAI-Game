@@ -1,0 +1,1 @@
+Image contains the following words: Dark purples, starry_background-5.png, cosmic_background_1, swirling galaxies. Must always include the: Game Assets/backgrounds/cosmic_background_1/, starry_background-5.png

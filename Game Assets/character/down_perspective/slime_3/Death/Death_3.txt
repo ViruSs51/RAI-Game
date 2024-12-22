@@ -1,0 +1,1 @@
+character down_perspective slime_3 Death ['Death', '3'] orange pixelated creature with yellow eyes

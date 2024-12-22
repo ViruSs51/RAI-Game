@@ -1,0 +1,8 @@
+Object of the prompt: A sword icon from a game.
+
+In addition to the main text 'sword', the 8 words are described as follows:
+
+* Small round shape with a triangle inside
+* Rounded rectangular body
+* A sword-shaped hilt attached to the opposite end
+* The color is black

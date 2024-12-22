@@ -1,0 +1,1 @@
+character right_side_perspective dude_2 shielded ['char', 'dude_2', 'right', 'anim.gif-3', 'shielded'].

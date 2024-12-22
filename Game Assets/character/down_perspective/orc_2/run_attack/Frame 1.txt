@@ -1,0 +1,1 @@
+character down_perspective orc_2 run_attack ['Frame 1'] blue skin yellow eyes two sharp fangs red necklace orange beard and crown.

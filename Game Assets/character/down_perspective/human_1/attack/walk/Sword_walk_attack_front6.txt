@@ -1,0 +1,8 @@
+The image provides a character with the following features:
+
+*   A humanoid figure with a head and limbs.
+*   The character is initially oriented in a downward direction.
+
+This character is then positioned at the front (front6 orientation), with a sword in hand, and appears to be walking and attacking simultaneously. The 'human_1' entity has long hair and is accompanied by a blue outfit. This descriptive prompt would serve as a precise specification for generating a visual image of this entity. The entity is made up of 8 words:
+
+character down_perspective human_1 attack walk ['Sword', 'walk', 'attack', 'front6']

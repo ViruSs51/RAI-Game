@@ -1,0 +1,1 @@
+The prompt for generating an image of a character with all the characters that come with it is: " character  right_side_perspective dude_2 falling ['char', 'falling', 'all', 'dir', 'anim.gif-0']". This prompt is 8 words long and only describes the object physically.

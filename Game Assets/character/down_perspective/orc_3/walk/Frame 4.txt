@@ -1,0 +1,1 @@
+The designer will now create a prompt using the following words: Green goblin character from down perspective orc_3. walk ['Frame 4'].

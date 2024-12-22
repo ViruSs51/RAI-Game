@@ -1,0 +1,17 @@
+This is a model prompt for generating an image. Prompts are a crucial part of creating images with AI art tools. The following model prompt is based on the elements extracted from the picture and prioritizes including only words that describe the character's physical appearance without incorporating violent or dangerous concepts.
+
+character full_sets_characters dude_1 Sword_Run_Attack ['Sword', 'Run', 'Attack', 'full']. Here is the complete word list:
+
+• Face
+• Nose
+• Eyes
+• Shirt
+• Hair
+• Sword
+• Run
+• Attack
+• full
+
+If the words are prioritized based on their importance to you, here is the revised 8-word prompt:
+
+Nose face eyes full shirt hair run attack sword. This revised model prompt meets the required target of 8 words, carefully selecting and prioritizing the most descriptive words to effectively guide the art generation process.

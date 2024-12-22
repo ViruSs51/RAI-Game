@@ -1,0 +1,1 @@
+character down_perspective orc_1 death ['Frame 4'] green, big, bald, grey, blue, red, long, bronze.

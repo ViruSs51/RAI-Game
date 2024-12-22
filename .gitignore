@@ -1,2 +1,5 @@
 venv
 .env
+__pycache__
+tst.py
+Game Assets\objects\description_creator.py

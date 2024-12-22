@@ -1,0 +1,3 @@
+Okay, here is the image text prompt:
+
+character right_side_perspective bomber_1 idle ['bomberplant', 'idle', 'anim', 'all', 'dir.gif-4']

@@ -1,0 +1,1 @@
+character right_side_perspective spider_1 death ['character', 'right-side-perspective', 'spider_1', 'death', 'body', 'foot', 'tentacle', 'leg']

@@ -1,0 +1,5 @@
+Here is a prompt that meets the requirements:
+
+Male Fire Mage facing-right medium walk ['4'].
+
+This prompt includes the character, its orientation, action, and number, all within the 8-word limit.

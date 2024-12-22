@@ -1,0 +1,1 @@
+char: small; attack: medium-sized; down: grey.

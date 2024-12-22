@@ -1,0 +1,1 @@
+character right_side_perspective human_1 attack ['Sword', 'right', 'side5', 'human', 'action', 'frontal', 'side5']

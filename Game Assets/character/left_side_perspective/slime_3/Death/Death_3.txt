@@ -1,0 +1,5 @@
+Here's the 8-word prompt for generating an image like the one provided:
+
+"Pixelated slime character in a 3D death scene."
+
+This prompt focuses on the physical description of the image, using keywords that can be used to generate a similar image.

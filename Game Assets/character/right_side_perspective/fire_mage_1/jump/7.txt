@@ -1,0 +1,1 @@
+The character is on the right side of the perspective, is a fire mage, and is jumping upwards with a seventh jump value.

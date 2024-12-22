@@ -1,0 +1,3 @@
+Here is a prompt that matches the image:
+
+character right-side perspective archer-1 attack 1 ['3'].

@@ -1,0 +1,1 @@
+character right_side_perspective alien_blue_1 jump ['blue', '', '0028', 'jump', '2'].
