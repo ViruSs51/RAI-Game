@@ -54,7 +54,7 @@ class Scene:
             else:
                 o.in_chunk = False
 
-            if o.ctype != 'monster' or (o.ctype == 'monster' and o.in_chunk): new_objects.append(o)
+            if o.ctype != 'monster' or ((o.ctype == 'monster' and o.in_chunk) and (o.life != None and o.life > 0 and o.ctype == 'monster')): new_objects.append(o)
         self.objects = new_objects
 
         return self.swap_scene
