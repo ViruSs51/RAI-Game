@@ -1,0 +1,1 @@
+character right_side_perspective dude_2 death ['char', 'death', 'all', 'dir', 'anim.gif-3']

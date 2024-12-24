@@ -1,0 +1,3 @@
+In the image, the character is standing on the right side of a perspective that appears to be slightly 3D, and is dressed as an archer with a right-handed shot 1 costume, and the character position ['5']. The image contains the following 8 word prompt: 
+
+character right_side_perspective archer_1 shot 1 ['5'].

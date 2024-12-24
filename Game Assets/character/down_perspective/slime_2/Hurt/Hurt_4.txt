@@ -1,0 +1,3 @@
+Here is the 8-word prompt for the character:
+
+pink_cute_smiley_face,down_perspective,slime_2, Hurt ['Hurt', '4']

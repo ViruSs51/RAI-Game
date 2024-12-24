@@ -1,0 +1,1 @@
+character full_sets_characters biker_1 [Pink shirt, green pants, purple hair].

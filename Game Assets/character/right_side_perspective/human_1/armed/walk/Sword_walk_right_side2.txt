@@ -1,0 +1,1 @@
+character right-side perspective human armed walk ['Sword', 'walk', 'right', 'side2']

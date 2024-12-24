@@ -1,0 +1,5 @@
+Here is a prompt that only contains 8 words to describe the image:
+
+ Character is a full_set of characters dude_1 Unarmed_Idle  
+
+Note: I removed the list and words that should be replaced by the model

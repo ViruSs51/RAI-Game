@@ -1,0 +1,1 @@
+character full_sets_characters City_men_1 ['Hurt']. male human, short hair, beige shirt, blue jeans, short brown feet.

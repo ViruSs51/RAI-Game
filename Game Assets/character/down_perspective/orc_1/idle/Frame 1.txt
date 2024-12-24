@@ -1,0 +1,11 @@
+character: green ogre-like creature
+down_perspective: front view
+feature: short, stubby body
+feature: big belly
+feature: large ears
+feature: sharp teeth
+feature: small arms
+feature: big feet
+feature: weapon: brown club with a yellow, triangle-shaped end
+idle: not moving
+Frame: 1

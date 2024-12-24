@@ -1,0 +1,5 @@
+Here is the prompt for generating an image similar to the one provided:
+
+"An  character in right side perspective, city man wearing blue shirt, brown pants and blue shoes, walking with ['8'] posture."
+
+This prompt includes the character, perspective, clothing, and pose, while excluding any text, to generate an image similar to the one shown.

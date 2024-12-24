@@ -1,0 +1,1 @@
+objects asteroid_1 explode ['asteroid', '01', 'explode-4'].

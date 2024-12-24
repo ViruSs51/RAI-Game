@@ -1,0 +1,1 @@
+character left_side_perspective human_1 armed idle ['Sword', 'Idle', 'side', 'left10']

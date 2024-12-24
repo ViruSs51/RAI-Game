@@ -1,0 +1,1 @@
+character right_side_perspective biker_1 Run1 ['2', '2'] the main figure has a multi-colored body with blue, green, brown, pink, and yellow segments. The main figure has ears, a yellow collar, and a long purple horn which starts at beak-thick and narrows at the top.

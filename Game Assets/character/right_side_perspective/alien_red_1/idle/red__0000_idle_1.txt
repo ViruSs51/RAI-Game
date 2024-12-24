@@ -1,0 +1,1 @@
+character right_side_perspective alien_red_1 idle ['red', '', '0000', 'idle', '1']

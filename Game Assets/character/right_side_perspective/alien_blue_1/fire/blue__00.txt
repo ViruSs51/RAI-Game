@@ -1,0 +1,1 @@
+blue 0. The prompt is to generate an image that contains this object. The object is an 00 with the color of blue.

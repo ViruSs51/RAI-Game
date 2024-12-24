@@ -1,0 +1,1 @@
+character left_side_perspective orc_3 run_attack ['Frame 6'] sword

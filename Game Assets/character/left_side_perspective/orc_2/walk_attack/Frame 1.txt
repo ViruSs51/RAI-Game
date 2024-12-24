@@ -1,0 +1,1 @@
+character left_­side_­perspective orc_2 walk_­attack ['Frame 1'] 8.

@@ -1,0 +1,1 @@
+character right_side_perspective alien_gray_1 fire ['gray', '', '0041', 'fire', '7'].

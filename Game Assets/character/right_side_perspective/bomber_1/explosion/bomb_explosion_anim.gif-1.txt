@@ -1,0 +1,3 @@
+It has 8 words and does not contain any dangerous or violent content. The prompt is related to the provided image and it's only for art generation. It shows a 8 words prompt for generating an image like the provided one.
+
+Character: right_side_perspective bomber_1 explosion ['bomb', 'explosion', 'anim.gif-1']

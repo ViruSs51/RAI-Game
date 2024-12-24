@@ -1,0 +1,1 @@
+Orcs, red: ['orc3', 'death', 'full'].

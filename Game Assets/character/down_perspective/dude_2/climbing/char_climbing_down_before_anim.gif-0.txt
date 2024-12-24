@@ -1,0 +1,1 @@
+Brown shirt pixelated 'char', brown pixelated 'climbing' down on a brown pixelated ['char', 'climbing', 'down', 'before', 'anim.gif-0'].

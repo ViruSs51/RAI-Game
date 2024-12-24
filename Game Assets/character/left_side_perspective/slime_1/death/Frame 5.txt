@@ -1,0 +1,10 @@
+To create a comprehensive and descriptive prompt for the image that meets the 8-word requirement, consider the following:
+
+1. **Character**: The image features a slime, which is a common character in games.
+2. **Left-side perspective**: The slime is viewed from its left side.
+3. **Slime_1**: This might refer to a specific type or design of slime, indicating it's the first version or iteration.
+4. **Death ['Frame 5']**: This part of the prompt suggests the slime is in a death animation state, specifically at frame 5 of the animation.
+
+Given these elements, a 0word prompt that describes the object physically could be: "A slime character from the left died at frame 5."
+
+This prompt includes all the key elements from your description and keeps it to the requested length, focusing on the physical attributes and state of the character in the image without including any other text.

@@ -1,0 +1,1 @@
+character right-side perspective pink slime 1 run ['pinkslime', 'run', 'anim', 'anim', 'all', 'dir.gif-1']

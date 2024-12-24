@@ -1,0 +1,1 @@
+Unarmed human 8 word prompt: character down_perspective human_1 unarmed walk ['Unarmed', 'walk', 'front6'].

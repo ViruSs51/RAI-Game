@@ -1,0 +1,1 @@
+character right_side_perspective fire_mage_1 walk ['5'] dark_brown_hooded_jacket grey_pants blue_shirt dark red_chothes.

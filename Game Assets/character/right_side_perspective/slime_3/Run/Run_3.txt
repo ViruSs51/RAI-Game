@@ -1,0 +1,4 @@
+Using the following exact words "  character right_side_perspective slime_3 Run ['Run', '3']. Let me create an image prompt for you:
+
+The prompt will be built as follows: 
+The character is yellow with an orangeish-yellow line that starts on the left of the slime's bottom and extends to the top-right side. The slime look big like the letter T. The slime is on a solid background.

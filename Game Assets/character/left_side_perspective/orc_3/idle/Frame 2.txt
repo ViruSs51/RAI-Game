@@ -1,0 +1,1 @@
+character left_side_perspective orc_3 idle ['Frame 2'], pixel art orc with sword.

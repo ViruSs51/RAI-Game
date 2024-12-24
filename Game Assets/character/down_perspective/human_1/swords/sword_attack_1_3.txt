@@ -1,0 +1,1 @@
+character down-perspective human_1 dark_brown_sword ['dark_brown_sword', 'sharp', 'pointy', 'long', 'wide', 'glossy', 'sharp', 'pointed'].

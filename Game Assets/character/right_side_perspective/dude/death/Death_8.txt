@@ -1,0 +1,1 @@
+character right_side_perspective dude dead man ['dead' 'man'].

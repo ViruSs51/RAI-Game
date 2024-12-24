@@ -1,0 +1,1 @@
+A down_perspective, human_1, unarmed, hurt, character with ['Unarmed', 'hurt', 'front5'] elements.

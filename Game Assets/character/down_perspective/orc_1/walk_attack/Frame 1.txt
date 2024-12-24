@@ -1,0 +1,1 @@
+character down_perspective orc_1 walk_attack ['Frame 1']

@@ -1,0 +1,1 @@
+character right_side_perspective slime_3 Attack ['Attack', '8'].

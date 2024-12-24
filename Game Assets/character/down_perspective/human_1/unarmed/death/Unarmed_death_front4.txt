@@ -1,0 +1,1 @@
+character down_perspective human_1 unarmed face front4 human_1 nose face eyes mouth

@@ -1,0 +1,3 @@
+The following is the prompt for generating an image the looks like the image provided:
+
+character: Right-side perspective, cyber-style, walk 1, ['2', '2'], long grey-blue dress with light blue glowing in the centre, dark green hair on top of her head, purple eyes, purple gloves, dark grey boots, pale yellow neck.

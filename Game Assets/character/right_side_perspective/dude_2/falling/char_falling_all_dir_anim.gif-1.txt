@@ -1,0 +1,1 @@
+char:right_side_perspective:dude_2:falling:all:dir:anim.gif-1

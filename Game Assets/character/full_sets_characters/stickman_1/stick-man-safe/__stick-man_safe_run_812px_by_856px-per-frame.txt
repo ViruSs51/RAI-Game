@@ -1,0 +1,1 @@
+Character full_sets_characters stickman_1 stick-man-safe run 12px, by 168px-per-frame

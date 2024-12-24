@@ -1,0 +1,1 @@
+character right_side_perspective alien_red_1 run ['red', '', '0013', 'run', '2']

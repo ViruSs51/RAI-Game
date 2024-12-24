@@ -1,0 +1,1 @@
+objects attack_effects_1 punch_action ['punch', 'action', '03']. blue glowing arrows.

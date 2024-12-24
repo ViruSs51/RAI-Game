@@ -1,0 +1,1 @@
+character down_perspective slime_1 walk ['Frame 2'] green, tiny, smiling, pixelated, cute, round, happy, creature

@@ -1,0 +1,1 @@
+[[character,"right_side_perspective","spider_1","run","['spider', 'run', 'anim', 'all', 'dir.gif-0']]]

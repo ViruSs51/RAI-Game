@@ -1,0 +1,5 @@
+Be aware that AI model may not always generate images that perfectly match the prompt, but it will do its best to interpret and create something related.
+
+Prompt for generating an image like:
+
+a character down-perspective human 1 unarmed walk ['Unarmed', 'walk', 'front2']

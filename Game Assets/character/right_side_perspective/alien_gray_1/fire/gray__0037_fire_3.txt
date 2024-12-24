@@ -1,0 +1,1 @@
+Here is the image prompt:  Character right_side_perspective alien_gray_1 fire ['gray', '', '0037', 'fire', '3']

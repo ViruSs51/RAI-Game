@@ -1,0 +1,3 @@
+Here is the prompt that you requested:
+
+Right side character, man in city, 1, dead, ['9'].

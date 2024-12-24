@@ -1,0 +1,5 @@
+The generated image will be an 8-word prompt based on the character "Death" from the game shown in the image. The prompt will only include words that describe the character physically.
+
+The prompt will be:
+
+"Character Death from pixel art game."

@@ -1,0 +1,1 @@
+Here is a prompt that, when used in an image-generating model, will produce something like the image: character right_side_perspective alien_dark_gray_1 run ['darkgray', '', '0012', 'run', '1']

@@ -1,0 +1,1 @@
+character down_perspective orc_2 death ['Frame 6'] red skin armor red spiked helmet.

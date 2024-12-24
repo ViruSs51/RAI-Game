@@ -1,0 +1,1 @@
+character left_side_perspective slime_2 Idle ['Idle', '4'] purple blue pink.

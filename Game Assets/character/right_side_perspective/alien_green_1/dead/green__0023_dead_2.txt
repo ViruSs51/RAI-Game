@@ -1,0 +1,5 @@
+It seems like the image is of a cute cartoon-style alien with green color. Here's an 8-word prompt that describes the character physically:
+
+Character right-side perspective alien_green_1 dead ['green', '0023', 'dead', '2'].
+
+Note: The prompt contains the words you provided, including the character name, perspective, color, and state, and uses the remaining words to keep the prompt 8 words long.

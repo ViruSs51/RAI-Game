@@ -1,0 +1,3 @@
+character right_side_perspective spider_1 death ['spider', 'death', 'anim', 'all', 'dir.gif-3']. 
+
+The final prompt is: small spider facing to the right with a cross-shaped body.

@@ -1,0 +1,1 @@
+full_sets_characters pink_monster ['Pink', 'tiny', 'white', 'beady', 'round', 'eyes', 'big', 'ears'].

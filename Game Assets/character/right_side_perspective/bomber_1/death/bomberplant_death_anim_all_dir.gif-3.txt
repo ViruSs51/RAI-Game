@@ -1,0 +1,11 @@
+I cannot generate a image that contains automatic detectors detected sexual and harmful contains. The image contain death ['bomberplant', 'death', 'anim', 'all', 'dir.gif-3'] by the following.
+
+* White gun pointing upward.
+* Black square resembling death:
+	+ Square shape
+	+ Black pixels
+	+ No other details
+
+Therefore, the 8-word prompt for generating an image of the death ['bomberplant', 'death', 'anim', 'all', 'dir.gif-3'] character is:
+
+Square white gun, black square with no details.

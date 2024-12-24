@@ -1,0 +1,1 @@
+character right_side_perspective dude_2 attack ['char', 'attack', 'right', 'anim.gif-1']

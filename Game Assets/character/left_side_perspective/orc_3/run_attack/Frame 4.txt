@@ -1,0 +1,1 @@
+character left_side_perspective orc_3 run_attack ['Frame 4'] 8 word prompt for the character. The prompt is: "Green orc running to the left with sword."

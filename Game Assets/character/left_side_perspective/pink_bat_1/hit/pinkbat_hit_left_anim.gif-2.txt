@@ -1,0 +1,1 @@
+character left_side_perspective pink_bat_1 hit ['pinkbat', 'hit', 'left', 'anim.gif-2'].

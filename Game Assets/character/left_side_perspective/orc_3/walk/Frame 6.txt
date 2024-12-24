@@ -1,0 +1,1 @@
+character left_side_perspective orc_3 walk ['Frame 6'] 8

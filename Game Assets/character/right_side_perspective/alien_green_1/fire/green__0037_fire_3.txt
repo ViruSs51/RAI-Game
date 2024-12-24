@@ -1,0 +1,1 @@
+Here is a prompt that matches the image: character right_side_perspective alien_green_1 fire ['green', '', '0037', 'fire', '3']

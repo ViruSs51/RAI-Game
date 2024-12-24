@@ -1,0 +1,1 @@
+character right-side perspective biker 1 Walk1 ['6', '6']

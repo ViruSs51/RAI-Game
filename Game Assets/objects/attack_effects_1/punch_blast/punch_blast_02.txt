@@ -1,0 +1,1 @@
+objects attack_effects_1 punch_blast ['punch','blast','02'].

@@ -1,0 +1,1 @@
+Character right_side perspective alien_predator_mask_1 idle, an alien character with a predator mask, idle stance, right-side perspective, in first person view in perspective, '0000' in 8-bit color, 'idle' action, '1' iteration, in the first person's perspective.

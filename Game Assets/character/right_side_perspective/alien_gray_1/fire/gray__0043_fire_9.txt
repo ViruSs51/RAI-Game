@@ -1,0 +1,3 @@
+Here is a possible prompt for the image:
+
+character_right_side_perspective_alien_gray_1_fire ['gray', '', '0043', 'fire', '9'].

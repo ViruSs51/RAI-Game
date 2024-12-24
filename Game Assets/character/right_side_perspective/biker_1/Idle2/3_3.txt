@@ -1,0 +1,1 @@
+character right_side_perspective biker_1 Idle2 ['3', '3'] purple shirt, pink jacket, blue legs, green pants, yellow hat, purple boots, pl, blonde hair, yellow shades.

@@ -1,0 +1,1 @@
+A grey square with evenly spaced dots.

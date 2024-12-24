@@ -1,0 +1,3 @@
+The image shows a character from a game with the words displayed in the image: 'orc2', 'death', 'sword,' and 'front.' The following prompt would be used for the text-to-image generation of an orc character in a game engine with the desired appearance. 
+
+"Vector-illustrated, cartoon-style, light-brown, flat-looking, 2d, orc, holding sword, facing towards the front."

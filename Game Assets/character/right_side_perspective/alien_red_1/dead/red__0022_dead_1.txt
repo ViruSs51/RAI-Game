@@ -1,0 +1,1 @@
+character right_side_perspective alien_red_1 dead red body dark eyes legs [['red', '', '0022', 'dead', '1']]

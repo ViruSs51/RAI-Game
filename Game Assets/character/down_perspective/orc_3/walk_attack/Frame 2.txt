@@ -1,0 +1,1 @@
+This image is a prompt for generating an icon featuring an orc character in the "down perspective" pose, specifically "Frame 2" of the "walk_attack" animation for the orc_3 character.

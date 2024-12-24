@@ -1,0 +1,1 @@
+ green orc character full_sets_characters orc ['orc1', 'run', 'attack', 'front', 'full']

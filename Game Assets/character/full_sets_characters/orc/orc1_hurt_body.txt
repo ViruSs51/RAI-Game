@@ -1,0 +1,4 @@
+here is the 8-word prompt, only with words describing the object's physical appearance
+
+[object]:
+green orc body orc1 body with green body hurt body skin.

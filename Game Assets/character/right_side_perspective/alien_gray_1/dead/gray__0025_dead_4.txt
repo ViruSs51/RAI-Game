@@ -1,0 +1,2 @@
+Here is the 8 word prompt: 
+An alien gray character with right side perspective dead ['gray', '', '0025', 'dead', '4'] - 3 words long.

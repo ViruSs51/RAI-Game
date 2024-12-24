@@ -1,0 +1,3 @@
+Here is a new prompt using the words character, right_side_perspective, alien_red_1, and hurt ['red', '', '0021', 'hurt', '4']:
+
+"character with 8 words prompt: alien-red-1 right-side-perspective, small cheerful smiling hurt ['red', '0021', '4']".

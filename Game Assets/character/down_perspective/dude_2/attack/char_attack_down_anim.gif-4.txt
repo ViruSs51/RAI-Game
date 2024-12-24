@@ -1,0 +1,1 @@
+character down perspective dude 2 attack ['char', 'attack', 'down', 'anim.gif-4']

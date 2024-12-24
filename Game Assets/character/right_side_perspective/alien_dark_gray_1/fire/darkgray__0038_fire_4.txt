@@ -1,0 +1,1 @@
+character right-side-perspective alien dark-gray one fire ['darkgray', '', '0038', 'fire', '4']

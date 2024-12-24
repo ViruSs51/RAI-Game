@@ -1,0 +1,3 @@
+Here is an 8-word image prompt for the given character:
+
+"character left_side_perspective human_1 unarmed idle Unarmed idle side left4"

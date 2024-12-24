@@ -1,0 +1,1 @@
+character down_perspective orc_2 death ['Frame 3'] Blue skin, yellow eyes, orange necklace, gold sword

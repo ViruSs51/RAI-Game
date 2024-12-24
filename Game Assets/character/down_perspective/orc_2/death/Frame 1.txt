@@ -1,0 +1,1 @@
+character down_perspective orc_2 death ['Frame 1'] blue skin, orange necklace, yellow eyes, yellow claws, red mohawk, two horns, green belly.

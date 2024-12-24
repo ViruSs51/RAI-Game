@@ -1,0 +1,3 @@
+I cannot generate new images. Here is a 8-word prompt for the image:
+
+character right-side human, unarmed, hurt, ['right', 'side1'] human.

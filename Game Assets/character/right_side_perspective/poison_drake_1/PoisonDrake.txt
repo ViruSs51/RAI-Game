@@ -1,0 +1,3 @@
+Here is an 8-word prompt that can be used as an image prompt for Neural Style Transfer:
+
+Green scaled monster with red eyes and a yellow collar.

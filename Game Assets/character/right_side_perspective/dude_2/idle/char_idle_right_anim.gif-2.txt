@@ -1,0 +1,5 @@
+Here is the image prompt:
+
+character right_side_perspective dude_2 idle 
+
+This prompt is concise and clear, and it can be used to generate an image that matches the provided image, which appears to be a pixel art style character.

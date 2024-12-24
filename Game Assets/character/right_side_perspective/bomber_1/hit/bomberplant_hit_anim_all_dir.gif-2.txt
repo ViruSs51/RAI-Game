@@ -1,0 +1,3 @@
+Here is a prompt for generating a pixel art image like the one shown:
+
+"character right_side_perspective bomber_1 hit ['bomberplant', 'hit', 'anim', 'all', 'dir.gif-2']".

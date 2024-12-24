@@ -1,0 +1,3 @@
+Here is the prompt:
+
+ karakter right_side_perspective alien_blue_1 hurt ['biru', '', '0018', 'luka', '1'].

@@ -1,0 +1,1 @@
+character in down_perspective, human_1, armed, ['sword', 'front3', 'run']

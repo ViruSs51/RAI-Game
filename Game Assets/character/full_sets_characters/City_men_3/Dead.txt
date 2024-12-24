@@ -1,0 +1,8 @@
+character full_sets_characters City_men_3 ['Dead']
+ character full_sets_characters City_men_2 ['Dead']
+ character full_sets_characters City_men_1 ['Dead']
+ character full_sets_characters City_men_0 ['Dead']
+ character full_sets_characters City_men_8 ['Dead']
+ character full_sets_characters City_men_7 ['Dead']
+ character full_sets_characters City_men_6 ['Dead']
+ character full_sets_characters City_men_5 ['Dead']

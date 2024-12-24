@@ -1,0 +1,3 @@
+The designer needs the 8 words prompt to generate a new image like this one below containing:
+
+character down_perspective orc_3 run ['Frame 5'].

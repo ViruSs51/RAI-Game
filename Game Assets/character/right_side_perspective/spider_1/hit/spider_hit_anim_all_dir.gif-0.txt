@@ -1,0 +1,1 @@
+character right_side_perspective spider_1 hit ['spider', 'hit', 'anim', 'all', 'dir.gif-0'].

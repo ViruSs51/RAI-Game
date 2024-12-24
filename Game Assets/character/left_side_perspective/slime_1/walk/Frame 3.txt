@@ -1,0 +1,1 @@
+character left_side_perspective green slime_1 walks right ['Frame 3']
