@@ -33,6 +33,8 @@ class Game:
             config=self.__config,
         )
 
+        self.loadSounds()
+
 
     @staticmethod
     def __initWindow(window_size: str | list[int] | tuple[int]) -> pg.Surface:

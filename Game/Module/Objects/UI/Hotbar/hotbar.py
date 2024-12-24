@@ -1,4 +1,4 @@
-from ..objects import Object
+from ...objects import Object
 import pygame as pg
 
 class Hotbar(Object):

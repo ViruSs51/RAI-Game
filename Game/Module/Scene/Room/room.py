@@ -1,9 +1,6 @@
 import pygame as pg
 from ..scene import Scene
 from ...Objects.Character.Player.player import Player
-from ...Objects.UI.health_bar import HealthBar
-from ...Objects.UI.shield_bar import ShieldBar
-from ...Objects.UI.stamina_bar import StaminaBar
 
 class Room(Scene):
     def __init__(
@@ -16,18 +13,8 @@ class Room(Scene):
         super().__init__(
             window=window, window_size=window_size, config=config, player=player
         )
-        self.loadHotBars()
-
-    
-    def loadHotBars(self):
-        self.healthBar = HealthBar(window=self._window,position=[self._w_size[0] - 300 - 30,self._w_size[1] - 20 - 30], border_radius=0 )
-        self.shieldBar = ShieldBar(window=self._window,position=[self._w_size[0] - 300 - 30,self._w_size[1] - 20 - 30 * 2], border_radius=0 )
-        self.staminaBar = StaminaBar(window=self._window,position=[self._w_size[0] - 300 - 30,self._w_size[1] - 20 - 30 * 3], border_radius=0 )
 
     async def loader(self):
-        await self.healthBar.draw()
-        await self.shieldBar.draw()
-        await self.staminaBar.draw()
         return await super().loader()
 
     async def movementPlayer(self):

@@ -1,7 +1,7 @@
 from pygame import Surface, image, transform
 from .scene import Scene
 import threading
-from ..Objects.UI.hotbar import Hotbar
+from ..Objects.UI.Hotbar.hotbar import Hotbar
 
 
 class Loading(Scene):

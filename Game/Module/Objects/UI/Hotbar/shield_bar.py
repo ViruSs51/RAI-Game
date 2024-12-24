@@ -1,5 +1,5 @@
 import pygame as pg 
-from ..UI.hotbar import Hotbar
+from .hotbar import Hotbar
 import time, threading
 
 
