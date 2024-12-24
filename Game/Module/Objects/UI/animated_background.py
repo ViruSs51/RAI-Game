@@ -1,8 +1,6 @@
 import pygame as pg
 from PIL import Image
 import time
-from ...Scene import scene
-from pygame import Surface
 
 
 class AnimatedBackground:

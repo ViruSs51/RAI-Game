@@ -1,7 +1,6 @@
 import pygame as pg
 import asyncio
 import json
-from sys import setrecursionlimit
 
 from Game.Module import Scene as S
 from Game.Module.Scene.scene import Scene
@@ -15,7 +14,6 @@ class Game:
     __config: dict = None
 
     def __init__(self):
-        setrecursionlimit(3000)
         self.__config = self.__getConfig("Game/config.json")
         self.__w_size = self.__config["window"]["size"]
 
@@ -28,9 +26,13 @@ class Game:
             window=self.__window, window_size=self.__w_size, config=self.__config
         )
         self.__player = S.init_player(window=self.__window, config=self.__config)
-        self.__scenes = S.load_scenes(window=self.__window, window_size=self.__w_size, player=self.__player, config=self.__config)
+        self.__scenes = S.load_scenes(
+            window=self.__window,
+            window_size=self.__w_size,
+            player=self.__player,
+            config=self.__config,
+        )
 
-        self.loadSounds()
 
     @staticmethod
     def __initWindow(window_size: str | list[int] | tuple[int]) -> pg.Surface:
