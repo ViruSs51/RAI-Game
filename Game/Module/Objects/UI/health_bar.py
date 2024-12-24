@@ -10,17 +10,17 @@ class HealthBar(Hotbar):
         position: list[int] = [0, 0],
         colors: list[list[int] | str] = [(255,44,44),(255,44,44), (255,44,44)],
         border_radius: int = -1,
-        hp = 100,
-        maxhp = 100):
+        hp = 10,
+        maxhp = 10):
         super().__init__(window, size, position, colors, border_radius)
         self.damage = 60
         self.hp= hp
         self.maxhp = maxhp        
 
-    def damageTaken(self):
+    def damageTaken(self, damage):
         
         time.sleep(20)
-        self.hp -= 10
+        self.hp -= damage
 
         
 

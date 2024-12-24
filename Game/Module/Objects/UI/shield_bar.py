@@ -13,11 +13,10 @@ class ShieldBar(Hotbar):
         shield= 100,
         maxshield= 100):
         super().__init__(window, size, position, colors, border_radius)
-        self.damage = 60
         self.shield= shield
         self.maxshield= maxshield
 
-    async def takeDamage(self, damage):
+    def damageTaken(self, damage):
         self.shield -= damage
         
 
