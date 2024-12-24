@@ -30,7 +30,7 @@ class MainMenu(Scene, menu.Menu):
         
         
     def loadAssets(self):
-
+        
         self.background = animated_background.AnimatedBackground(
             rf"Game Assets\main_assets\animated_background.gif", 255
         )

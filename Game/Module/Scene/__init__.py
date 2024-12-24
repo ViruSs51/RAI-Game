@@ -31,7 +31,13 @@ def init_player(window: Surface, config: dict) -> Player:
         size=config["characters"]["player"]["size"],
         position=config["characters"]["player"]["position"],
         images_url=config["characters"]["player"]["samples"],
-        max_life=config['characters']['player']['max_life']
+        max_life=config['characters']['player']['max_life'],
+        speed=config['characters']['player']['speed'],
+        running_speed=config['characters']['player']['running_speed'],
+        special_sizes=config['characters']['player']['special_sizes'],
+        attack_range=config['characters']['player']['attack_range'],
+        damage=config['characters']['player']['damage'],
+        knockback=config['characters']['player']['knockback']
     )
 
     return player

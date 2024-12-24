@@ -1,8 +1,6 @@
 import pygame as pg
 from ..scene import Scene
-from ..Interface import gameplay_ui
 from ...Objects.Character.Player.player import Player
-
 
 class Room(Scene):
     def __init__(

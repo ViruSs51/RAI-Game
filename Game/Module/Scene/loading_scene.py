@@ -1,6 +1,7 @@
 from pygame import Surface, image, transform
 from .scene import Scene
 import threading
+from ..Objects.UI.Hotbar.hotbar import Hotbar
 
 
 class Loading(Scene):
@@ -83,4 +84,5 @@ class Loading(Scene):
     async def loader(self):
         if self.loading_finished:
             return await super().loader()
+        
         self.runningLoadingBar()

@@ -22,7 +22,13 @@ class MonsterGenerator(Object):
             size=self.images_url[monster_type]['size'],
             position=[x, y],
             images_url=self.images_url[monster_type]["samples"],
-            max_life=self.images_url[monster_type]['max_life']
+            max_life=self.images_url[monster_type]['max_life'],
+            speed=self.images_url[monster_type]['speed'],
+            running_speed=self.images_url[monster_type]['running_speed'],
+            special_sizes=self.images_url[monster_type]['special_sizes'],
+            attack_range=self.images_url[monster_type]['attack_range'],
+            damage=self.images_url[monster_type]['damage'],
+            knockback=self.images_url[monster_type]['knockback']
         ) 
 
     def generateMonsters(self, monster_counts: int=100):

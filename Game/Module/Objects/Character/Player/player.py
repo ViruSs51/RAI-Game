@@ -12,9 +12,15 @@ class Player(Character):
         size: list[int],
         position: list[int],
         images_url: list[str],
-        max_life: int=10
+        max_life: int=10,
+        speed: float=0.35,
+        running_speed: float=0.8,
+        special_sizes: list[int]=None,
+        attack_range: list[int]=None,
+        damage: float=1,
+        knockback: dict=None
     ):
-        super().__init__(window, size, position, images_url, ctype='player', max_life=max_life)
+        super().__init__(window, size, position, images_url, ctype='player', max_life=max_life, speed=speed, running_speed=running_speed, special_sizes=special_sizes, attack_range=attack_range, damage=damage, knockback=knockback)
 
         self.collider = True
         self.player_border_distance = (self.window_size[0] / 4, self.window_size[1] / 4)
@@ -34,13 +40,10 @@ class Player(Character):
         self.toDown = lambda: self.pos[1] + self.speed if self.verifyDown() else self.window_size[1] - self.player_border_distance[1] - 0.1
         self.toLeft = lambda: self.pos[0] - self.speed if self.verifyLeft() else self.player_border_distance[0] + 0.1
 
-        self.main_speed = 0.35
-        self.speed = self.main_speed
-        self.running_speed = 1
-
         self.controller = Controller(self.window)
+        self.monster_kills = 0
 
     async def draw(self, objects: list[Object]=None):
         self.character = await self.Animated()
-        await self.processing(True)
+        if not self.start: await self.processing(True)
         await super().draw(objects=objects)
