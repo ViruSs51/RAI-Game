@@ -82,7 +82,7 @@ class Game:
             if swap_scene == "spaceship_control_room":
                 self.img.generateImage("character")
                 self.img.generateImage("character")
-                self.img.generateImage("weapon")
+                self.img.generateImage("tile")
 
             self.__scene = swap_scene
 
