@@ -4,3 +4,8 @@ pygame==2.6.1
 typing==3.7.4.3
 threading
 numpy
+pillow
+rembg
+base64
+onnxruntime
+cv2

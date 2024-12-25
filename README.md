@@ -67,7 +67,7 @@ If you're on Mac or Linux run webui.sh and wait to finish
 
 If you're on Windows run webui.bat and wait to finish
 ```bash
-webui.bat
+.\webui.bat
 ```
 It will open a browser page, you don't need that 
 
@@ -81,13 +81,13 @@ If you're on Mac or Linux run webui.sh with the --api comand line arguments:
 ```
 If you're on Windows run webui.bat with the --api comand line arguments:
 ```bash
-webui.bat --api
+.\webui.bat --api
 ```
 
 Close the page that appers
 
 
-### 5. Go to RAI-Game and run the game:
+### 5. Go back to RAI-Game folder and run the game:
 ```bash
 python main.py
 ```

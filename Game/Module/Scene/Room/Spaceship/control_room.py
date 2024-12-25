@@ -33,7 +33,7 @@ class ControlRoom(Room):
         )
 
     def initFloor(self):
-        self.floor_image = "Game Assets/tiles/space_station_1/floor/floor_50.png"
+        self.floor_image = "Game Assets/generated/tile/tile1.png"
         self.floor_size = [32, 32]
         self.floor_initial_pos = [-self.floor_size[0], -self.floor_size[0]]
         self.floor_pos = deepcopy(self.floor_initial_pos)
@@ -47,6 +47,7 @@ class ControlRoom(Room):
         for x in range(0, total_width, self.floor_size[0]):
             for y in range(0, total_height, self.floor_size[1]):
                 self.floor_surface.blit(floor_tile, (x, y))
+    
 
     async def loader(self):
         self._window.blit(self.floor_surface, self.floor_pos)

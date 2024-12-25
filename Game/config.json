@@ -28,402 +28,93 @@
       "position": [0, 0],
       "samples": [
         [
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back1.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back1.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back1.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back3.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back3.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back3.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back4.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back4.png",
-          "Game Assets/character/up_perspective/human_1/armed/idle/Sword_idle_back4.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right1.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right2.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right3.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right4.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right5.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right6.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right7.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right8.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right9.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right10.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right11.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/idle/Sword_idle_side_right12.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front1.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front2.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front3.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front4.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front5.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front6.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front7.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front8.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front9.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front10.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front11.png",
-          "Game Assets/character/down_perspective/human_1/armed/idle/Sword_idle_front12.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left1.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left2.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left3.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left4.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left5.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left6.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left7.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left8.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left9.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left10.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left11.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/idle/Sword_idle_side_left12.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
 
         [
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back1.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back1.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back3.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back3.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back4.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back4.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back5.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back5.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back6.png",
-          "Game Assets/character/up_perspective/human_1/armed/walk/Sword_walk_back6.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side3.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side3.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side4.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side4.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side5.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side5.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side6.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/walk/Sword_walk_right_side6.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front1.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front1.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front2.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front2.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front3.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front3.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front4.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front4.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front5.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front5.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front6.png",
-          "Game Assets/character/down_perspective/human_1/armed/walk/Sword_walk_front6.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side3.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side3.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side4.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side4.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side5.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side5.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side6.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/walk/Sword_walk_left_side6.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
 
         [
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back1.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back1.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back3.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back4.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back5.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back6.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back7.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back7.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back8.png",
-          "Game Assets/character/up_perspective/human_1/armed/run/Sword_run_back8.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
         [
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side3.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side4.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side5.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side6.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side7.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side7.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side8.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/run/Sword_run_right_side8.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front1.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front1.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front2.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front2.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front3.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front4.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front5.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front6.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front7.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front7.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front8.png",
-          "Game Assets/character/down_perspective/human_1/armed/run/Sword_run_front8.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side3.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side4.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side5.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side6.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side7.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side7.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side8.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/run/Sword_run_left_side8.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
 
         [
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back1.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back1.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back1.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back2.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back2.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back2.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back3.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back3.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back3.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back4.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back4.png",
-          "Game Assets/character/up_perspective/human_1/attack/Sword_attack_back4.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
         [
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side3.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side3.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side4.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side5.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side6.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side7.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/Sword_attack_right_side8.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front1.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front1.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front1.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front2.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front2.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front3.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front3.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front4.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front5.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front6.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front7.png",
-          "Game Assets/character/down_perspective/human_1/attack/Sword_attack_front8.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side3.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side3.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side4.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side5.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side6.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side7.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/Sword_attack_left_side8.png"
-        ],
-        
-        [
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back1.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back1.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back1.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back2.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back2.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back3.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back4.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back4.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back5.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back5.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back6.png",
-          "Game Assets/character/up_perspective/human_1/attack/walk/Sword_walk_attack_back6.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
         [
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side3.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side4.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side4.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side5.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side5.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side6.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/walk/Sword_walk_attack_right_side6.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
         [
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front1.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front1.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front1.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front2.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front2.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front3.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front4.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front4.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front5.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front5.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front6.png",
-          "Game Assets/character/down_perspective/human_1/attack/walk/Sword_walk_attack_front6.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side3.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side4.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side4.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side5.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side5.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side6.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/walk/Sword_walk_attack_left_side6.png"
+          "Game Assets/generated/character/character1_no_bg.png"
+        ],
+        [
+          "Game Assets/generated/character/character1_flipped.png"
         ],
 
         [
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back1.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back1.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back1.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back2.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back2.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back3.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back4.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back4.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back5.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back5.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back6.png",
-          "Game Assets/character/up_perspective/human_1/attack/run/Sword_run_attack_back6.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
         [
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side1.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side2.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side3.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side4.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side4.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side5.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side5.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side6.png",
-          "Game Assets/character/right_side_perspective/human_1/attack/run/Sword_run_attack_right_side6.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front1.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front1.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front1.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front2.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front2.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front3.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front4.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front4.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front5.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front5.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front6.png",
-          "Game Assets/character/down_perspective/human_1/attack/run/Sword_run_attack_front6.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side1.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side2.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side3.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side4.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side4.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side5.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side5.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side6.png",
-          "Game Assets/character/left_side_perspective/human_1/attack/run/Sword_run_attack_left_side6.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
 
         [
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back1.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back1.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back2.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back3.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back3.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back3.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back4.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back4.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back5.png",
-          "Game Assets/character/up_perspective/human_1/armed/hit/Sword_hit_back5.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ],
         [
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right1.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right1.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right2.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right2.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right2.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right3.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right3.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right3.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right4.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right4.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right5.png",
-          "Game Assets/character/right_side_perspective/human_1/armed/hit/Sword_hit_side_right5.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front1.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front1.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front2.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front2.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front2.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front3.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front3.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front3.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front4.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front4.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front5.png",
-          "Game Assets/character/down_perspective/human_1/armed/hit/Sword_hit_front5.png"
+          "Game Assets/generated/character/character1_no_bg.png"
         ],
         [
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left1.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left1.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left2.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left2.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left2.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left3.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left3.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left3.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left4.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left4.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left5.png",
-          "Game Assets/character/left_side_perspective/human_1/armed/hit/Sword_hit_side_left5.png"
+          "Game Assets/generated/character/character1_flipped.png"
         ]
       ]
     },
@@ -443,402 +134,94 @@
         "running_speed": 1,
         "samples": [
           [
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/idle/Frame 4.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/idle/Frame 4.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/idle/Frame 4.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/idle/Frame 4.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
 
           [
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 5.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 5.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 6.png",
-            "Game Assets/character/up_perspective/orc_1/walk/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 5.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 5.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 6.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 5.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 5.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 6.png",
-            "Game Assets/character/down_perspective/orc_1/walk/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 5.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 5.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 6.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
 
           [
-            "Game Assets/character/up_perspective/orc_1/run/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 5.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 6.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 7.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 7.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 8.png",
-            "Game Assets/character/up_perspective/orc_1/run/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 5.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 6.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 7.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 7.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 8.png",
-            "Game Assets/character/right_side_perspective/orc_1/run/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/down_perspective/orc_1/run/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 5.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 6.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 7.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 7.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 8.png",
-            "Game Assets/character/down_perspective/orc_1/run/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 5.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 6.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 7.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 7.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 8.png",
-            "Game Assets/character/left_side_perspective/orc_1/run/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
 
           [
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 5.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 6.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 7.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 7.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 8.png",
-            "Game Assets/character/up_perspective/orc_1/attack/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 5.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 6.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 7.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 7.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 8.png",
-            "Game Assets/character/right_side_perspective/orc_1/attack/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 5.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 6.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 6.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 7.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 8.png",
-            "Game Assets/character/down_perspective/orc_1/attack/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 5.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 6.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 7.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 7.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 8.png",
-            "Game Assets/character/left_side_perspective/orc_1/attack/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           
           [
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 5.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 5.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 6.png",
-            "Game Assets/character/up_perspective/orc_1/walk_attack/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 5.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 5.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 6.png",
-            "Game Assets/character/right_side_perspective/orc_1/walk_attack/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 5.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 5.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 6.png",
-            "Game Assets/character/down_perspective/orc_1/walk_attack/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 5.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 5.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 6.png",
-            "Game Assets/character/left_side_perspective/orc_1/walk_attack/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
   
           [
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 5.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 6.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 7.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 7.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 8.png",
-            "Game Assets/character/up_perspective/orc_1/run_attack/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 5.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 6.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 7.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 7.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 8.png",
-            "Game Assets/character/right_side_perspective/orc_1/run_attack/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 5.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 6.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 7.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 7.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 8.png",
-            "Game Assets/character/down_perspective/orc_1/run_attack/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 5.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 6.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 7.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 7.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 8.png",
-            "Game Assets/character/left_side_perspective/orc_1/run_attack/Frame 8.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
 
           [
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 2.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 3.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 4.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 5.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 5.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 6.png",
-            "Game Assets/character/up_perspective/orc_1/hurt/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 2.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 3.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 4.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 5.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 5.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 6.png",
-            "Game Assets/character/right_side_perspective/orc_1/hurt/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 2.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 3.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 4.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 5.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 5.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 6.png",
-            "Game Assets/character/down_perspective/orc_1/hurt/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ],
           [
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 1.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 2.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 3.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 4.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 5.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 5.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 6.png",
-            "Game Assets/character/left_side_perspective/orc_1/hurt/Frame 6.png"
+            "Game Assets/generated/character/character2_flipped.png"
           ]
         ]
       }
