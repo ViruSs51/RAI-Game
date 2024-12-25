@@ -1,0 +1,3 @@
+Here is the prompt:
+
+character right_side_perspective city_man_3 idle ['5']

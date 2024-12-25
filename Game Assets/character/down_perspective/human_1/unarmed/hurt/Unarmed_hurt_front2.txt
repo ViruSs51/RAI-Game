@@ -1,0 +1,3 @@
+Here is the prompt for this character in 8 words:
+
+character down_perspective human_1 unarmed hurt face ['Unarmed', 'hurt', 'front2'].

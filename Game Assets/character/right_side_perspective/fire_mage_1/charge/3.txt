@@ -1,0 +1,1 @@
+character right_side_perspective fire_mage_1 charge ['3'] dark_warm_thick_flame embrace iconic small_letters simple uppercase yellow

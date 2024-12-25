@@ -1,0 +1,3 @@
+An 8 word prompt befits the image, it should contain character right_side_perspective dude_2 and hit.
+
+the actual prompt is: character right_side_perspective dude_2 hit ['char', 'hit', 'right', 'anim.gif-1']

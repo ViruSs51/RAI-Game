@@ -1,0 +1,1 @@
+Right-side perspective Spider 1 character with a hit animation in all directions from dir.gif-3.

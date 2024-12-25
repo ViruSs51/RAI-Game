@@ -1,0 +1,1 @@
+character right_side_perspective alien_gray_1 hurt [['character', 'right_side_perspective', 'alien', 'gray_1', 'hurt', '3', '', '0020'], ['gray', '', '0020', 'hurt', '3']]

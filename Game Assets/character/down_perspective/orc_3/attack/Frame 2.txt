@@ -1,0 +1,5 @@
+Here is a prompt generated from the specified words:
+
+character: orc_3
+down_perspective
+attack: ['Frame 2']

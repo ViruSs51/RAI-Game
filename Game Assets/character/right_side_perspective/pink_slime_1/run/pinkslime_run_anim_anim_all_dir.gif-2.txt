@@ -1,0 +1,1 @@
+right_side_perspective pink_slime_1 run {'pinkslime': 'run', 'anim': 'anim', 'dir.gif-2': 'all'}

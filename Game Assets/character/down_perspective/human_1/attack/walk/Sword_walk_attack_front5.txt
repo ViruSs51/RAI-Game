@@ -1,0 +1,1 @@
+The prompt for generating an image like this should be: character down perspective human 1 attack walk ['Sword', 'walk', 'attack', 'front5'].

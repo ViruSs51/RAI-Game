@@ -1,0 +1,1 @@
+character down perspective slime 3 Hurt ['Hurt', '5']

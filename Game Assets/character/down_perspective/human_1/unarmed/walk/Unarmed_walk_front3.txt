@@ -1,0 +1,1 @@
+character down_perspective human_1 unarmed walk ['Unarmed', 'walk', 'front3'] blue eyes big brown hair yellow skin.

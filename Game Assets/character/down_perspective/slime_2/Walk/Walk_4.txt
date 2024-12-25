@@ -1,0 +1,3 @@
+Here is a prompt for your image with the character down-perspective slime-2 walk ['Walk', '4']. The prompt is a descriptive list of the physical properties of the character. 
+
+Light blue color character, eyes red, with purple rim centered on a black background.

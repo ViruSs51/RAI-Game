@@ -1,0 +1,1 @@
+character right-side-perspective cyber-1 Idle1 ['2', '2'] male.

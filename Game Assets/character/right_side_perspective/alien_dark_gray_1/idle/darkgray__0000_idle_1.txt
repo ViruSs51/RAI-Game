@@ -1,0 +1,1 @@
+character right_side_perspective alien_dark_gray_1 idle darkgray blank 0000 idle 1

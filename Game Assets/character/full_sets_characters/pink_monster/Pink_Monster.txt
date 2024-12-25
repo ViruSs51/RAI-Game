@@ -1,0 +1,1 @@
+pink_monster ['Pink', 'Monster']. A  character full_sets_characters ['Full sets', 'characters']. Create a portrait of an ['Pink', 'Monster'] face with mixed ['Full sets', 'characters'] facial expressions.

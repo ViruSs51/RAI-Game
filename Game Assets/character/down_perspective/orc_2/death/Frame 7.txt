@@ -1,0 +1,1 @@
+character down_perspective orc_2 death ['Frame 7'] blue gray character with red and orange spikes on its head.

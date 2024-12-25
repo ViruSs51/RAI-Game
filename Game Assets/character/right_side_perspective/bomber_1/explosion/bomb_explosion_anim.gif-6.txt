@@ -1,0 +1,1 @@
+character right-side perspective bomber-1 smiling smiling smiling smiling smiling exploding ['bomb', 'explosion', 'anim.gif-6']

@@ -1,0 +1,1 @@
+camera_quality character_down human_1 attack_run ['Sword', 'camera_quality', 'attack_run', 'front7']

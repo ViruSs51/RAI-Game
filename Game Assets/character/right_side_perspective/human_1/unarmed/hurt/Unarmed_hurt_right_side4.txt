@@ -1,0 +1,3 @@
+Here is the 8-word prompt:
+
+character right_side_perspective human_1 unarmed hurt ['Unarmed', 'hurt', 'right', 'side4'] red clothing blue background.

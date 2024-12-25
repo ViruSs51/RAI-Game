@@ -1,0 +1,1 @@
+character right side dude effect double jump ['Double', 'jump', 'dust', '5']  square long black boots short round sleeves dark shade hat.

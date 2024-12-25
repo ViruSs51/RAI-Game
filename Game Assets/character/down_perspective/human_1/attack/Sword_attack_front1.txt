@@ -1,0 +1,1 @@
+human_1 down perspective attack ['Sword', 'attack', 'front1'].

@@ -1,0 +1,1 @@
+human_1_down_perspective armed character ['Sword', 'front3', 'death']

@@ -1,0 +1,1 @@
+The prompt for generating an image is: Down-perspective of an unarmed, human-like character running['Unarmed', 'run', 'front8'] with a neutral expression and no dangerous features.

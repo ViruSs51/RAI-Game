@@ -1,0 +1,1 @@
+Character right_side_perspective bomber_1 going_up ['bomb', 'going', 'up', 'anim.gif-1']

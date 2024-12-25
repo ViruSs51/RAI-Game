@@ -1,0 +1,1 @@
+character right_side_perspective human_1 armed holding sword run with side3 motion.

@@ -1,0 +1,3 @@
+Now, I can generate an image based on your 8-word prompt. Here is the image:
+
+[Caption: A person wears a pink jacket and blue pants.]

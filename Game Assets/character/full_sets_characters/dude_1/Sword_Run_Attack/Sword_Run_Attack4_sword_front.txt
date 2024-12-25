@@ -1,0 +1,3 @@
+To generate an image like this, write the following prompt:
+
+male full upper_body front visible sleeveless attire animated character depiction, long slender thin pointed rectangular edge blade sword weapon, upright directional path horizontal body structure, angular upper_body clothing clothing-style attire attire-adorned full body full upper_body character upper_body sleeves full upper_body attire male full body attire, front-facing view, depiction of full upper_body attire and full body attire of male, depicting upper_body attire of full body attire, full upper_body attire, depicting full body attire, full upper_body attire of male, 'Sword', 'Run', 'Attack4', 'sword', 'front' with [ 'Sword', 'Run', 'Attack4', 'sword', 'front'  ].

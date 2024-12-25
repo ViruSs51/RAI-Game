@@ -1,0 +1,11 @@
+**Character Left Side Perspective Orc 1 Walk Frame 4:**
+
+- character: a creature
+- left: facing
+- side: profile
+- perspective: view
+- orc: species
+- 1: singular
+- walk: action
+- frame: position
+- 4: sequence

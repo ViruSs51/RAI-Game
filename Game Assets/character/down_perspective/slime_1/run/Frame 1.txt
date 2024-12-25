@@ -1,0 +1,1 @@
+character down_perspective slime_1 run ['Frame 1'] green, slimy, pixelated smiley face with small eyes

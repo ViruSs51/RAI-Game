@@ -1,0 +1,1 @@
+object::right side perspective,slime,3,Attack,Attack,1,bursts,orange,yellow,abstract,drawing,pixel

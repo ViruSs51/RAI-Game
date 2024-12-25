@@ -1,0 +1,1 @@
+Character left_side_perspective orc_3 walk_attack ['Frame 6'] drawing.

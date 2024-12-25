@@ -1,0 +1,3 @@
+The generated image should have a shape like the following: 
+
+A pixelated, orange, heart-shaped object similar to the bottom right side of a lit orange candle with lighting smudge.

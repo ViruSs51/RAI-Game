@@ -1,0 +1,1 @@
+full_sets_characters orc  'orc3' body 'hurt' chest 'sword' middle 'back'.

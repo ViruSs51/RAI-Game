@@ -1,0 +1,1 @@
+A new spinning object in four different colors, blue, red, gray, and yellow.

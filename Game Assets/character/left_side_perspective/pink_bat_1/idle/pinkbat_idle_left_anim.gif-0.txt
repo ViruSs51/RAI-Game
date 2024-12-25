@@ -1,0 +1,1 @@
+character left_side_perspective pink_bat_1 idle ['pinkbat', 'idle', 'left', 'anim.gif-0']

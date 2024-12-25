@@ -1,0 +1,1 @@
+Here is a prompt that meets the requirements: "character right_side_perspective alien_dark_gray_1 turn ['darkgray', '', '0003', 'turn', '1']"

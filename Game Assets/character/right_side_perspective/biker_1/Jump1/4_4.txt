@@ -1,0 +1,1 @@
+character right_side_perspective biker_1 Jump1 ['4', '4'] Large brown boots, long sleeve pink shirt, green cargo pants, long purple hair.

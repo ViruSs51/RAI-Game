@@ -1,0 +1,1 @@
+character right_side_perspective pink_slime_1 idle ['pinkslime', 'idle', 'anim', 'all', 'dir.gif-5'].

@@ -1,0 +1,3 @@
+Here is the prompt for the given image:
+
+Character right_side_perspective punk_1 Run2 ['1', '1']

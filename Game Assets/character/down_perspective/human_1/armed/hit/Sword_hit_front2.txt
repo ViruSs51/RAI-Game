@@ -1,0 +1,1 @@
+character down-perspective human-1 armed hit ['Sword', 'hit', 'front2'].

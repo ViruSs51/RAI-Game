@@ -1,0 +1,1 @@
+character down_perspective slime_2 Walk ['Walk', '8'].

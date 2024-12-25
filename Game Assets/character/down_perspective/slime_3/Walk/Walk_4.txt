@@ -1,0 +1,1 @@
+Character down_perspective slime_3 is a Slime, the 3 one that goes down.

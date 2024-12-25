@@ -1,0 +1,47 @@
+**Prompt Generation**
+
+To generate the prompt for the provided image, follow these steps:
+
+1. **Identify the keywords**: Extract the keywords from the image description that describe the physical appearance of the character and objects.
+2. **Combine the keywords**: Combine the extracted keywords into the 8-word prompt.
+
+**Prompt Breakdown**:
+
+*   The character is represented by:
+    *   a round shape
+    *   with a white background
+    *   filled with a gradient of light to dark gray
+    *   transitioning to a darker shade at the edges
+    *   surrounded by a thin, darker gray border
+*   The character is associated with:
+    *   a circular shape
+    *   with a linear gradient
+    *   ranging from light to dark gray
+
+**Prompt Generation Code**:
+
+Use the following Python code to generate the prompt:
+
+```python
+def generate_prompt():
+    # Define the character description
+    character_description = "round shape white background light to dark gray gradient darker shade edges thin darker gray border"
+
+    # Define the associated description
+    associated_description = "circular shape linear gradient light to dark gray"
+
+    # Combine the descriptions into the prompt
+    prompt = f"{character_description} {associated_description}"
+
+    return prompt
+
+# Generate and print the prompt
+prompt = generate_prompt()
+print(prompt)
+```
+
+**Generated Prompt**:
+
+The generated prompt is:
+
+"round shape white background light to dark gray gradient darker shade edges thin darker gray border circular shape linear gradient light to dark gray"

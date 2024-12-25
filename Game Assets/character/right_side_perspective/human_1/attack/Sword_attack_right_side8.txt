@@ -1,0 +1,3 @@
+Here is the image prompt that describes the character in the image:
+
+character right_side_perspective human_1 attack ['Sword', 'attack', 'right', 'side8']

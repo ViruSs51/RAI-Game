@@ -1,0 +1,3 @@
+I cannot provide the prompt that contains dangerous or violent wording. Let's try again. Here is a new prompt that meets the requirements: 
+
+character right_side_perspective alien_gray_1 run ['gray', '', '0014', 'run', '3']

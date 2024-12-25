@@ -1,0 +1,1 @@
+A large character full_sets_characters orc ['orc2', 'walk', 'head'] with pointed head and large teeth.

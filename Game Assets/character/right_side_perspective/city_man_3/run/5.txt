@@ -1,0 +1,3 @@
+A man running, from the front, wearing blue casual clothes and brown belt.
+
+This prompt is intended to be used with an image generation model that can generate images based on a prompt.

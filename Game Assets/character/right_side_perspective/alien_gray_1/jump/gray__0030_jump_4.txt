@@ -1,0 +1,1 @@
+character right-side perspective alien gray one jump ['gray', '', '0030', 'jump', '4']

@@ -1,0 +1,1 @@
+character right_side_perspective alien_gray_1 turn ['gray', '', '0004', 'turn', '2']

@@ -1,0 +1,1 @@
+Character full_sets_characters orc ['orc2', 'hurt', 'head'].

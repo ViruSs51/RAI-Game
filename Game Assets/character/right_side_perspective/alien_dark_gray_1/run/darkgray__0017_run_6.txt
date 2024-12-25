@@ -1,0 +1,1 @@
+char right_side_perspective alien_dark_gray_1 run ['darkgray', '', '0017', 'run', '6'].

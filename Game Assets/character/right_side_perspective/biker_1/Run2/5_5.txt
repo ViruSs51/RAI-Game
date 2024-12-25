@@ -1,0 +1,31 @@
+## Prompt for a Person in a Biking Pose
+
+The following prompts can be used for image generation for the described object in the image provided:
+
+*   80s pixel art biker in a run gesture
+
+    *   The prompt can be shortened to fit content requirements to two lines.
+
+*   A female character in biker outfit in a running pose 
+
+    *   The prompt can be shortened to fit content requirements to two lines.
+
+*   An action female biker runner riding towards the viewer's right
+
+    *   The prompt remains the same.
+
+*   The image contains a character in a red bike outfit moving right
+
+    *   The prompt remains the same.
+
+*   Pixel art style image of a running biker with a red outfit
+
+    *   The prompt remains the same.
+
+*   a drawing of a character in pixel art style, wearing red outfit, riding a bike
+
+    *   The prompt can be shortened to fit content requirements to two lines.
+
+*   running biker is a single word prompt that fits requirements
+
+All the prompts in the provided list describe the image contents regarding the object in the image provided. They cannot generate violent or inappropriate images because the character is in a running pose, not harming anyone or attacking anyone.

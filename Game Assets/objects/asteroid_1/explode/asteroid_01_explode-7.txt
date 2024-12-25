@@ -1,0 +1,1 @@
+objects asteroid_1 explode ['asteroid', '01', 'explode-7'] dark gray object with rough surface explode into pieces

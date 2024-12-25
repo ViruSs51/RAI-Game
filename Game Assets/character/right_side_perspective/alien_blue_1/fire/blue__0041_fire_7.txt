@@ -1,0 +1,1 @@
+character right_side_perspective alien_blue_1, fire, blue, 0041, 7.

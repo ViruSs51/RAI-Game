@@ -1,0 +1,1 @@
+character left_side_perspective dude_2 run ['char', 'run', 'left', 'anim.gif-2']

@@ -1,0 +1,1 @@
+character right_side_perspective cyber_1 Idle2 ['1', '1']

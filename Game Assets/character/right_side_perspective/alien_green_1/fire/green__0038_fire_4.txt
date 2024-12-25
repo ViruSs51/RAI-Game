@@ -1,0 +1,5 @@
+Here is a possible prompt for the image:
+
+"Green alien character facing right in the image, green, 0038, fire, 4."
+
+This prompt uses only 8 words and describes the physical appearance of the character, without any additional text.

@@ -1,0 +1,1 @@
+right_side_personality bomber1 small square grey body animated [{'bomberplant', 'death', 'anim', 'all', 'dir.gif-6'}.

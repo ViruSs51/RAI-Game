@@ -1,0 +1,3 @@
+character right_side_perspective dude weapon rock medium big white grey blue rounded flat smooth sharp pale lit soft sharp dark grey black small sharp deep angle dull.
+
+The character is placed in a right-side perspective, facing to their right. The direction of the perspective angle is from [TOP LEFT] to [BOTTOM RIGHT]. They are a [dude character], which means they are a default character type. Their weapon is ['Medium' Rock], which means the size is normal, and they are holding a rock as their weapon. The characteristics for this character are [rock]. The rock is [medium] in size, which means it is average in size.

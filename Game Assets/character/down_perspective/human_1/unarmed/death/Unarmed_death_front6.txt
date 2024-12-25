@@ -1,0 +1,1 @@
+ frontal front6  human 1 unarmed  ['Unarmed', 'death', 'down-perspective human human_1 frontal front6'].

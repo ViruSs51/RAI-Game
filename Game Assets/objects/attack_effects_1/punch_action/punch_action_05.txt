@@ -1,0 +1,1 @@
+objects attack_effects_1 punch_action ['punch', 'action', '05'] blue punching action icons, simple blue shapes, punch marks, blue action lines.

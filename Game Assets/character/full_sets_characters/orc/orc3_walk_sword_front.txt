@@ -1,0 +1,1 @@
+one male full_body_character orc ['orc3', 'walk', 'sword', 'front'] wearing light armour.

@@ -1,0 +1,1 @@
+A square character with 4 darker squares around it.
