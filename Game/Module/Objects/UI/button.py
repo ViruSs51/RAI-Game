@@ -1,6 +1,5 @@
 from ..objects import Object
 from .text import Text
-
 import pygame as pg
 from types import FunctionType
 
