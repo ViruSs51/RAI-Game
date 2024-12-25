@@ -1,9 +1,8 @@
 from pygame import Surface, image, transform, font
 from .scene import Scene
 from ..Objects.UI import animated_background, menu
-import asyncio
-import threading
-
+import asyncio, threading
+import pygame as pg
 
 class MainMenu(Scene, menu.Menu):
 
@@ -45,6 +44,7 @@ class MainMenu(Scene, menu.Menu):
         )
 
     async def loader(self):
+    
         if self.background:
             await self.background.update()
             self._window.blit(
@@ -69,6 +69,8 @@ class MainMenu(Scene, menu.Menu):
 
         if buttons_press[0]:
             self.swap_scene = "spaceship_control_room"
+        elif buttons_press[2]:
+            pg.quit()
         else:
             self.swap_scene = None
 

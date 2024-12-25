@@ -6,6 +6,7 @@ from Game.Module import Scene as S
 from Game.Module.Scene.scene import Scene
 from Game.Module.DataType.scene import Scenes
 from Game.Module.Scene.Interface import gameplay_ui
+from Game.AI.scripts.image_generation import ImageGeneration
 
 
 class Game:
@@ -14,6 +15,7 @@ class Game:
     __config: dict = None
 
     def __init__(self):
+        self.img = ImageGeneration()
         self.__config = self.__getConfig("Game/config.json")
         self.__w_size = self.__config["window"]["size"]
 
@@ -79,6 +81,11 @@ class Game:
         )
 
         if swap_scene is not None and swap_scene in self.__scenes:
+            if swap_scene == "spaceship_control_room":
+                self.img.generateImage("character")
+                self.img.generateImage("character")
+                self.img.generateImage("tile")
+
             self.__scene = swap_scene
 
     def run(self):
