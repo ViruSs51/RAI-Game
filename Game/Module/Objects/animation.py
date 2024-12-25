@@ -19,7 +19,7 @@ class Animation(Object):
         self.current_delay = 0
         self.max_delay = 0
         self.images = []
-        
+
         super().__init__(window, size, position, colors, images_url[0], -1)
 
         self.save_get_damage = None
@@ -29,25 +29,43 @@ class Animation(Object):
         self.d = delay
         self.max_dalay = time() + self.d
 
-    async def draw(self, perspective: int = 0, objects: list[Object]=None, special_sizes: list=None, get_damage: bool=None):
+    async def draw(
+        self,
+        perspective: int = 0,
+        objects: list[Object] = None,
+        special_sizes: list = None,
+        get_damage: bool = None,
+    ):
         if self.start:
             for i, pi in enumerate(self.all_images):
                 self.images.append(
-                    await self.setImages(new_images=pi, new_size=special_sizes[str(i)] if special_sizes and str(i) in special_sizes.keys() else None)
+                    await self.setImages(
+                        new_images=pi,
+                        new_size=(
+                            special_sizes[str(i)]
+                            if special_sizes and str(i) in special_sizes.keys()
+                            else None
+                        ),
+                    )
                     if i != 0
                     else await self.setImages()
                 )
 
-        if get_damage != None and get_damage and (get_damage != self.save_get_damage and get_damage):
+        if (
+            get_damage != None
+            and get_damage
+            and (get_damage != self.save_get_damage and get_damage)
+        ):
             self.finish_full_animation = True
 
-        if get_damage != self.save_get_damage: self.save_get_damage = get_damage
-        
+        if get_damage != self.save_get_damage:
+            self.save_get_damage = get_damage
+
         if 12 <= perspective or not self.finish_full_animation:
             await self.delayFullAnimation(perspective=perspective)
         else:
             await self.delay(perspective=perspective)
-        
+
         self.window.blit(self.fill_image, self.pos)
 
         await self.oneStart()
@@ -59,12 +77,16 @@ class Animation(Object):
             self.fill_index = 0
 
         elif time() >= self.max_dalay:
-            if self.fill_index >= len(self.images[self.save_perspective_full_animation]):
+            if self.fill_index >= len(
+                self.images[self.save_perspective_full_animation]
+            ):
                 self.fill_index = 0
                 self.save_perspective_full_animation = None
                 self.finish_full_animation = True
             else:
-                self.fill_image = self.images[self.save_perspective_full_animation][self.fill_index]
+                self.fill_image = self.images[self.save_perspective_full_animation][
+                    self.fill_index
+                ]
             self.max_dalay = time() + self.d
             self.fill_index += 1
 

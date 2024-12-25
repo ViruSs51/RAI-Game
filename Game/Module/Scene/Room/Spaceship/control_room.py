@@ -23,14 +23,10 @@ class ControlRoom(Room):
         self.monster_generator = MonsterGenerator(
             window=window,
             images_url=config["characters"]["monsters"],
-            chunk_dimension=config['game']['chunk_dimension'],
-            monster_counts=self.max_monster_in_chunk
+            chunk_dimension=config["game"]["chunk_dimension"],
+            monster_counts=self.max_monster_in_chunk,
         )
-        self.addObject(
-            self.monster_generator.monsters + [
-                self._player
-            ]
-        )
+        self.addObject(self.monster_generator.monsters + [self._player])
 
     def initFloor(self):
         self.floor_image = "Game Assets/generated/tile/tile1.png"
@@ -54,9 +50,14 @@ class ControlRoom(Room):
 
         await self.movementPlayer()
 
-        returned =  await super().loader()
+        returned = await super().loader()
 
         if self.monsters_in_chunck < self.max_monster_in_chunk:
-            self.objects = self.monster_generator.generateMonsters(monster_counts=self.max_monster_in_chunk-self.monsters_in_chunck) + self.objects
+            self.objects = (
+                self.monster_generator.generateMonsters(
+                    monster_counts=self.max_monster_in_chunk - self.monsters_in_chunck
+                )
+                + self.objects
+            )
 
         return returned
