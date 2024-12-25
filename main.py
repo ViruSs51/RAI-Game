@@ -24,9 +24,6 @@ class Game:
         self.__window = self.__initWindow(window_size=self.__w_size)
         pg.display.set_caption(self.__config["window"]["title"])
 
-        self.__gameplay_interface = gameplay_ui.GameplayInterface(
-            window=self.__window, window_size=self.__w_size, config=self.__config
-        )
         self.__player = S.init_player(window=self.__window, config=self.__config)
         self.__scenes = S.load_scenes(
             window=self.__window,
@@ -34,9 +31,14 @@ class Game:
             player=self.__player,
             config=self.__config,
         )
+        self.__gameplay_interface = gameplay_ui.GameplayInterface(
+            window=self.__window,
+            window_size=self.__w_size,
+            config=self.__config,
+            player=self.__player,
+        )
 
         self.loadSounds()
-
 
     @staticmethod
     def __initWindow(window_size: str | list[int] | tuple[int]) -> pg.Surface:
@@ -118,9 +120,12 @@ class Game:
             await self.__callScene(object=self.__gameplay_interface)
 
     def loadSounds(self):
-        pg.mixer.music.load("Game Assets/sounds/background/background_cosmic_serenity.mp3")
+        pg.mixer.music.load(
+            "Game Assets/sounds/background/background_cosmic_serenity.mp3"
+        )
         pg.mixer.music.set_volume(0.5)
         pg.mixer.music.play(loops=-1)
+
 
 if __name__ == "__main__":
     game = Game()

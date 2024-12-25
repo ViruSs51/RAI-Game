@@ -1,33 +1,36 @@
-import pygame as pg 
+import pygame as pg
 from .hotbar import Hotbar
 import time, threading
 
 
 class ShieldBar(Hotbar):
-    def __init__(self,
+    def __init__(
+        self,
         window: pg.Surface,
         size: list[int] = [300, 20],
         position: list[int] = [0, 0],
-        colors: list[list[int] | str] = [(173, 216, 230),(173, 216, 230), (173, 216, 230)],
+        colors: list[list[int] | str] = [
+            (173, 216, 230),
+            (173, 216, 230),
+            (173, 216, 230),
+        ],
         border_radius: int = -1,
-        shield= 100,
-        maxshield= 100):
+        shield=100,
+        maxshield=100,
+    ):
         super().__init__(window, size, position, colors, border_radius)
-        self.shield= shield
-        self.maxshield= maxshield
+        self.shield = shield
+        self.maxshield = maxshield
 
-    def damageTaken(self, damage):
-        self.shield -= damage
-        
+    def updateHp(self, hp: float):
+        self.hp = hp
 
-    async def draw(self, objects = None):
-        ratio = self.shield/self.maxshield
+    async def draw(self, objects=None):
+        ratio = self.shield / self.maxshield
         self.size = [self.size[0] * ratio, 20]
         self.bar = pg.draw.rect(
-                self.window,
-                self.colors[self.fill_index],
-                self.pos + self.size,
-                border_radius=self.border_radius
-            )    
-    
-
+            self.window,
+            self.colors[self.fill_index],
+            self.pos + self.size,
+            border_radius=self.border_radius,
+        )

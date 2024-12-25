@@ -14,10 +14,10 @@ class Frame(Object):
     ):
         super().__init__(window, size, position, colors, images_url, border_radius)
 
-    async def draw(self, objects: list[Object]=None):
+    async def draw(self, objects: list[Object] = None):
         if self.start:
             await self.setImages()
-            
+
         self.window.blit(self.fill_image, self.pos)
 
         await self.oneStart()
