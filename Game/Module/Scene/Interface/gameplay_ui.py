@@ -10,36 +10,51 @@ from ...Objects.UI.Hotbar.stamina_bar import StaminaBar
 
 
 class GameplayInterface(Scene):
-    not_on_scenes = ['main_menu', 'loading_scene']
+    not_on_scenes = ["main_menu", "loading_scene"]
 
     def __init__(
         self,
         window: pg.Surface,
         window_size: str | list[int] | tuple[int],
         config: dict,
+        player: Player,
     ):
-        super().__init__(window, window_size, config)
+        super().__init__(window, window_size, config, player=player)
 
         self.addObject(
             # Pause button
-            [button.Button(
-                self._window,
-                size=[70, 70],
-                position=[10, 10],
-                images_url=[
-                    "Game Assets/objects/ui_1/button-pause.png",
-                    "Game Assets/objects/ui_1/button-pause.png",
-                    "Game Assets/objects/ui_1/button-pause.png",
-                ],
-            )] + self.loadHotBars()
+            [
+                button.Button(
+                    self._window,
+                    size=[70, 70],
+                    position=[10, 10],
+                    images_url=[
+                        "Game Assets/objects/ui_1/button-pause.png",
+                        "Game Assets/objects/ui_1/button-pause.png",
+                        "Game Assets/objects/ui_1/button-pause.png",
+                    ],
+                )
+            ]
+            + self.loadHotBars()
         )
 
     def loadHotBars(self):
-        healthBar = HealthBar(window=self._window,position=[self._w_size[0] - 300 - 30,self._w_size[1] - 20 - 30], border_radius=0 )
-        shieldBar = ShieldBar(window=self._window,position=[self._w_size[0] - 300 - 30,self._w_size[1] - 20 - 30 * 2], border_radius=0 )
-        staminaBar = StaminaBar(window=self._window,position=[self._w_size[0] - 300 - 30,self._w_size[1] - 20 - 30 * 3], border_radius=0 )
+        healthBar = HealthBar(
+            window=self._window,
+            position=[self._w_size[0] - 300 - 30, self._w_size[1] - 20 - 30 * 2],
+            border_radius=1,
+            hp=self._player.life,
+            maxhp=self.config["characters"]["player"]["max_life"],
+        )
+        staminaBar = StaminaBar(
+            window=self._window,
+            position=[self._w_size[0] - 300 - 30, self._w_size[1] - 20 - 30],
+            border_radius=1,
+            stamina=self._player.stamina,
+            max_stamina=self._player.max_stamina,
+        )
 
-        return [healthBar, shieldBar, staminaBar]
+        return [healthBar, staminaBar]
 
     async def loader(self):
         parent = await super().loader()

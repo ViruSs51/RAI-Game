@@ -84,5 +84,5 @@ class Loading(Scene):
     async def loader(self):
         if self.loading_finished:
             return await super().loader()
-        
+
         self.runningLoadingBar()
